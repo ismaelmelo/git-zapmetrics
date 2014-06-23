@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC084 - Relatório de Priorização de Portfólios" version="3">
+  <DEPS>
+    <ID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+    <PID name="DUC - Diagrma de UCs" mc="Package" uid="90946557-71c5-4a05-a5b4-407c8cb05f36"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC084 - Relatório de Priorização de Portfólios]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="4095941d-3ea6-4392-a281-fb4da3ea9f9b"/>
+          <PID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Emitir Relatório de Priorização de Portfólios
+
+FP.1 - O usuário solicita Emitir Relatório de Priorização de Portfólios.
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA1).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Filtrar Resultados da Pesquisa
+
+FA1.1 - O usuário decide filtrar os dados da pesquisa.
+FA1.2 - O usuário preenche os filtros da pesquisa (INF-01).
+FA1.3 - O usuário confirma a operação.
+FA1.4 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA1.5 - O sistema retorna ao passo FP.4.
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa do Relatório]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="5f957f30-ae12-48e5-96f3-4560bcabbaa0"/>
+          <PID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="a3bbb279-fa05-4749-a838-91547a61fdce"/>
+          <PID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="6114ef5b-e8a9-4dce-a47a-c50116aae766"/>
+          <PID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="4cdeb064-a992-45c6-9638-61cd035e4e9a"/>
+          <PID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="72baa097-8271-49d9-986a-391d68ebb955"/>
+          <PID name="UC084 - Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

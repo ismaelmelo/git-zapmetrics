@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="2d919359-bd81-4aea-896a-73fc93f56965"/>
+    <COMPID name="DUC - ADM Desenvolvimento" mc="UseCaseDiagram" uid="3c345ffd-5442-4900-b29d-393995129c5c"/>
+    <COMPID name="DUC - ADM Extensões" mc="UseCaseDiagram" uid="f6f2068b-f590-4538-af78-423dda2ac4b6"/>
+    <COMPID name="DUC - ADM Métricas" mc="UseCaseDiagram" uid="0a97d500-4229-4476-a752-8bf05da57761"/>
+    <COMPID name="DUC - ADM Organização" mc="UseCaseDiagram" uid="83fb27ce-9397-4be7-957d-b094d39883cc"/>
+    <COMPID name="DUC - ADM Projetos" mc="UseCaseDiagram" uid="a568108f-ce5c-4c87-9ce0-92f3e5e3b47e"/>
+    <COMPID name="Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+    <COMPID name="Manter Atividades do Roteiro" mc="UseCase" uid="a1c08f40-c023-4c04-bfc7-98cb96d84530"/>
+    <COMPID name="Manter Ações de Risco" mc="UseCase" uid="eabe0aed-6ed4-42e9-abfa-ccb502aab372"/>
+    <COMPID name="Manter Categorias de Risco" mc="UseCase" uid="2cf897c8-bda0-490b-ac25-2ad7cd44265b"/>
+    <COMPID name="Manter Divisões da Área" mc="UseCase" uid="98b60693-e5f4-4a08-83fc-b46e96d33957"/>
+    <COMPID name="Manter Fases do Roteiro" mc="UseCase" uid="a8a3f3ae-0c1b-4679-b385-c8efa692d702"/>
+    <COMPID name="Manter Impactos de Risco" mc="UseCase" uid="200209e4-e451-4c8a-a89c-a32b90463e54"/>
+    <COMPID name="Manter Metodologias" mc="UseCase" uid="74cdcaef-e0c1-4805-aaf6-826b26509abc"/>
+    <COMPID name="Manter Modelos APF" mc="UseCase" uid="fcbdf69f-e01b-43ab-86b3-8e648c709c29"/>
+    <COMPID name="Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+    <COMPID name="Manter Parâmetros de Portfólio" mc="UseCase" uid="40fb4ccd-035f-4bfa-8d2f-a9f2a11c129c"/>
+    <COMPID name="Manter Parâmetros do COCOMO II" mc="UseCase" uid="71f0f053-7e0b-4c90-b901-8d07331d4753"/>
+    <COMPID name="Manter Parâmetros para Modelos APF" mc="UseCase" uid="a1712837-d2ea-43ce-8ee9-390fad24cce4"/>
+    <COMPID name="Manter Plataformas" mc="UseCase" uid="9331a28a-d45f-4af9-a65b-9cb0f11aed4d"/>
+    <COMPID name="Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+    <COMPID name="Manter Propósitos do Tipo de Contagem" mc="UseCase" uid="674819cc-8d14-490c-91c8-02a82407f18b"/>
+    <COMPID name="Manter Roteiros" mc="UseCase" uid="402dd33a-915e-48aa-96df-9c8eb0d1fbaa"/>
+    <COMPID name="Manter Tecnologias" mc="UseCase" uid="02b0c81b-8a95-4e54-9a9d-889c59ee2723"/>
+    <COMPID name="Manter Tipos de Contagem" mc="UseCase" uid="f83cd81e-dc05-4065-8b4b-7f6547027c11"/>
+    <COMPID name="Manter Tipos de Elemento do Tipo de Manutenção" mc="UseCase" uid="944d41db-47b9-4667-8629-58dadef90d72"/>
+    <COMPID name="Manter Tipos de Manutenção do Tipo de Contagem" mc="UseCase" uid="d423958b-52f1-4a75-afb3-b62113827ef4"/>
+    <COMPID name="Manter Tipos de Sistema (C. Jones)" mc="UseCase" uid="e9e1ee5d-735c-44dd-8c98-79cf9578e88b"/>
+    <COMPID name="Manter Usuários Suporte (TV)" mc="UseCase" uid="550f0a74-4586-422b-bd9e-0e48c7f9a1ea"/>
+    <COMPID name="Manter Widgets" mc="UseCase" uid="2c5a07dd-2a62-4076-9758-5c71ede0de75"/>
+    <COMPID name="Manter Áreas da Organização" mc="UseCase" uid="9950cf31-2328-4ce2-aa6a-d6320f52513c"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="2d919359-bd81-4aea-896a-73fc93f56965"/>
+    <PID name="A01 - Configurações" mc="Package" uid="0f8f5d29-2036-4a24-95b9-614ff93c3533"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+        <COMPID name="Manter Áreas da Organização" mc="UseCase" uid="9950cf31-2328-4ce2-aa6a-d6320f52513c"/>
+        <COMPID name="Manter Divisões da Área" mc="UseCase" uid="98b60693-e5f4-4a08-83fc-b46e96d33957"/>
+        <COMPID name="Manter Parâmetros de Portfólio" mc="UseCase" uid="40fb4ccd-035f-4bfa-8d2f-a9f2a11c129c"/>
+        <COMPID name="Manter Ações de Risco" mc="UseCase" uid="eabe0aed-6ed4-42e9-abfa-ccb502aab372"/>
+        <COMPID name="Manter Categorias de Risco" mc="UseCase" uid="2cf897c8-bda0-490b-ac25-2ad7cd44265b"/>
+        <COMPID name="Manter Impactos de Risco" mc="UseCase" uid="200209e4-e451-4c8a-a89c-a32b90463e54"/>
+        <COMPID name="Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+        <COMPID name="Manter Plataformas" mc="UseCase" uid="9331a28a-d45f-4af9-a65b-9cb0f11aed4d"/>
+        <COMPID name="Manter Tecnologias" mc="UseCase" uid="02b0c81b-8a95-4e54-9a9d-889c59ee2723"/>
+        <COMPID name="Manter Metodologias" mc="UseCase" uid="74cdcaef-e0c1-4805-aaf6-826b26509abc"/>
+        <COMPID name="Manter Roteiros" mc="UseCase" uid="402dd33a-915e-48aa-96df-9c8eb0d1fbaa"/>
+        <COMPID name="Manter Fases do Roteiro" mc="UseCase" uid="a8a3f3ae-0c1b-4679-b385-c8efa692d702"/>
+        <COMPID name="Manter Atividades do Roteiro" mc="UseCase" uid="a1c08f40-c023-4c04-bfc7-98cb96d84530"/>
+        <COMPID name="Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+        <COMPID name="Manter Modelos APF" mc="UseCase" uid="fcbdf69f-e01b-43ab-86b3-8e648c709c29"/>
+        <COMPID name="Manter Parâmetros para Modelos APF" mc="UseCase" uid="a1712837-d2ea-43ce-8ee9-390fad24cce4"/>
+        <COMPID name="Manter Parâmetros do COCOMO II" mc="UseCase" uid="71f0f053-7e0b-4c90-b901-8d07331d4753"/>
+        <COMPID name="Manter Tipos de Sistema (C. Jones)" mc="UseCase" uid="e9e1ee5d-735c-44dd-8c98-79cf9578e88b"/>
+        <COMPID name="Manter Usuários Suporte (TV)" mc="UseCase" uid="550f0a74-4586-422b-bd9e-0e48c7f9a1ea"/>
+        <COMPID name="Manter Widgets" mc="UseCase" uid="2c5a07dd-2a62-4076-9758-5c71ede0de75"/>
+        <COMPID name="Manter Tipos de Contagem" mc="UseCase" uid="f83cd81e-dc05-4065-8b4b-7f6547027c11"/>
+        <COMPID name="Manter Propósitos do Tipo de Contagem" mc="UseCase" uid="674819cc-8d14-490c-91c8-02a82407f18b"/>
+        <COMPID name="Manter Tipos de Manutenção do Tipo de Contagem" mc="UseCase" uid="d423958b-52f1-4a75-afb3-b62113827ef4"/>
+        <COMPID name="Manter Tipos de Elemento do Tipo de Manutenção" mc="UseCase" uid="944d41db-47b9-4667-8629-58dadef90d72"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - ADM Organização" mc="UseCaseDiagram" uid="83fb27ce-9397-4be7-957d-b094d39883cc"/>
+        <COMPID name="DUC - ADM Projetos" mc="UseCaseDiagram" uid="a568108f-ce5c-4c87-9ce0-92f3e5e3b47e"/>
+        <COMPID name="DUC - ADM Desenvolvimento" mc="UseCaseDiagram" uid="3c345ffd-5442-4900-b29d-393995129c5c"/>
+        <COMPID name="DUC - ADM Métricas" mc="UseCaseDiagram" uid="0a97d500-4229-4476-a752-8bf05da57761"/>
+        <COMPID name="DUC - ADM Extensões" mc="UseCaseDiagram" uid="f6f2068b-f590-4538-af78-423dda2ac4b6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,228 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC106 - Manter Laudos" version="3">
+  <DEPS>
+    <ID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+    <EXTID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="extend" mc="Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC106 - Manter Laudos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="b4fabad2-f27d-41ca-ac90-f013996e833e"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="acfef439-2a84-408f-9765-500375a56d33"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Laudos de Métricas
+
+FP.1 - O usuário solicita pesquisar Laudos de Métricas (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Laudo de Métricas
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir um Laudo de Métricas.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Laudo de Métricas
+
+FA2.1 - No passo FP.4, o usuário solicita copiar um Laudo de Métricas.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Laudo de Métricas
+
+FA3.1 - No passo FP.4, o usuário solicita alterar um Laudo de Métricas.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Laudo de Métricas
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar um Laudo de Métricas.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Laudo de Métricas
+
+FA5.1 - No passo FP.4, o usuário solicita excluir um Laudo de Métricas.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Customizados
+
+- nu_solicitacao
+- nu_versao
+- ds_sobreDocumentacao
+- ds_sobreMetrificacao
+- qt_pf
+- qt_horas
+- qt_prazoMeses
+- qt_prazoDias
+- vr_contratacao
+- nu_usuarioResp
+- dt_inicioSolicitacao
+- dt_inicioContagem
+- dt_emissao
+- hh_emissao
+- ic_tamanho
+- ic_esforco
+- ic_prazo
+- ic_custo
+- ic_bloqueio]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="1db33721-b879-4f59-8cf2-74c9b9ea7655"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="53e551dd-83dc-46ff-b8be-310cdbfbf3d9"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="b773a471-e57e-40b5-a08f-575ae6978a58"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="d3f95546-9bb3-4c03-8bcf-dd0f97c63c19"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="064f8bed-68e0-43df-848d-4f868591d005"/>
+          <PID name="UC106 - Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

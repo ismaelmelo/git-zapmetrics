@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="ecffd579-0189-40bb-a415-dcf5d6983abc"/>
+    <COMPID name="DCL - Pessoas" mc="ClassDiagram" uid="64267f9b-278c-414b-aef2-576e90907e23"/>
+    <COMPID name="cargo" mc="Class" uid="b57f68eb-bfdf-4613-bc7b-8c531a846aea"/>
+    <COMPID name="papel" mc="Class" uid="f5d24851-5e9d-4d8e-8916-91fdf194eb16"/>
+    <COMPID name="pessoa" mc="Class" uid="de7f45b0-703a-432c-96d8-dac6e7df5aaf"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="ecffd579-0189-40bb-a415-dcf5d6983abc"/>
+    <PID name="B05 - Pessoas" mc="Package" uid="f4ecdeb4-186a-4156-a8de-80e8caed82c1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="pessoa" mc="Class" uid="de7f45b0-703a-432c-96d8-dac6e7df5aaf"/>
+        <COMPID name="cargo" mc="Class" uid="b57f68eb-bfdf-4613-bc7b-8c531a846aea"/>
+        <COMPID name="papel" mc="Class" uid="f5d24851-5e9d-4d8e-8916-91fdf194eb16"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - Pessoas" mc="ClassDiagram" uid="64267f9b-278c-414b-aef2-576e90907e23"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Categorization" version="3">
+  <DEPS>
+    <ID name="Categorization" mc="Profile" uid="01ec25d4-0000-1779-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-177a-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1785-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1790-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1796-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-179c-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-17a2-0000-000000000000"/>
+    <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-17b2-0000-000000000000"/>
+    <COMPID name="Catalog_Artifact" mc="Stereotype" uid="01ec25d4-0000-178c-0000-000000000000"/>
+    <COMPID name="Catalog_Package" mc="Stereotype" uid="01ec25d4-0000-1787-0000-000000000000"/>
+    <COMPID name="Categorization" mc="Stereotype" uid="01ec25d4-0000-17b4-0000-000000000000"/>
+    <COMPID name="Category" mc="Stereotype" uid="01ec25d4-0000-1781-0000-000000000000"/>
+    <COMPID name="CategoryValue_DataType" mc="Stereotype" uid="01ec25d4-0000-17a9-0000-000000000000"/>
+    <COMPID name="CategoryValue_Instance" mc="Stereotype" uid="659e9836-260a-11df-9d5e-001302895b2b"/>
+    <COMPID name="CategoryValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17ae-0000-000000000000"/>
+    <COMPID name="FreeFormValue_DataType" mc="Stereotype" uid="01ec25d4-0000-179e-0000-000000000000"/>
+    <COMPID name="FreeFormValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17a4-0000-000000000000"/>
+    <COMPID name="FreeFromDescriptor_Attribute" mc="Stereotype" uid="01ec25d4-0000-1798-0000-000000000000"/>
+    <COMPID name="FreeFromDescriptor_BindableInstance" mc="Stereotype" uid="01ec25d4-0000-1792-0000-000000000000"/>
+    <COMPID name="NodeDescriptor" mc="Stereotype" uid="01ec25d4-0000-177c-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Categorization" mc="Profile" uid="01ec25d4-0000-1779-0000-000000000000"/>
+    <PID name="SoaMLDesigner" mc="ModuleComponent" uid="4671fd99-8848-11df-a5a6-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="JCode"></ATT>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Categorization]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedStereotype">
+        <COMPID name="NodeDescriptor" mc="Stereotype" uid="01ec25d4-0000-177c-0000-000000000000"/>
+        <COMPID name="Category" mc="Stereotype" uid="01ec25d4-0000-1781-0000-000000000000"/>
+        <COMPID name="Catalog_Package" mc="Stereotype" uid="01ec25d4-0000-1787-0000-000000000000"/>
+        <COMPID name="Catalog_Artifact" mc="Stereotype" uid="01ec25d4-0000-178c-0000-000000000000"/>
+        <COMPID name="FreeFromDescriptor_BindableInstance" mc="Stereotype" uid="01ec25d4-0000-1792-0000-000000000000"/>
+        <COMPID name="FreeFromDescriptor_Attribute" mc="Stereotype" uid="01ec25d4-0000-1798-0000-000000000000"/>
+        <COMPID name="FreeFormValue_DataType" mc="Stereotype" uid="01ec25d4-0000-179e-0000-000000000000"/>
+        <COMPID name="FreeFormValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17a4-0000-000000000000"/>
+        <COMPID name="CategoryValue_DataType" mc="Stereotype" uid="01ec25d4-0000-17a9-0000-000000000000"/>
+        <COMPID name="CategoryValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17ae-0000-000000000000"/>
+        <COMPID name="Categorization" mc="Stereotype" uid="01ec25d4-0000-17b4-0000-000000000000"/>
+        <COMPID name="CategoryValue_Instance" mc="Stereotype" uid="659e9836-260a-11df-9d5e-001302895b2b"/>
+      </COMP>
+      <COMP relation="OwnedReference">
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-177a-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1785-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1790-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-1796-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-179c-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-17a2-0000-000000000000"/>
+        <COMPID name="" mc="MetaclassReference" uid="01ec25d4-0000-17b2-0000-000000000000"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

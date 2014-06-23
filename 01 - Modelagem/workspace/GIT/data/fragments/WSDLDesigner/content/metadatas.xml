@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ram-component manifest-version="2.0"
+               name="WSDLDesigner" version="0" release="0"  clevel="0">
+    <description>
+        <![CDATA[]]>
+    </description>
+    <dependencies>
+    </dependencies>
+    <contributors>
+    </contributors>
+    <roots>
+      <root metaclass="ModuleComponent" name="WSDLDesigner" uuid="01fc01c0-0000-1516-0000-000000000000"></root>
+    </roots>
+</ram-component>

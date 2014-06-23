@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plestrategico" version="3">
+  <DEPS>
+    <ID name="plestrategico" mc="Class" uid="1658e339-166c-4edc-a1bb-1f613f87721b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="plestrategico" mc="Class" uid="1658e339-166c-4edc-a1bb-1f613f87721b"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="10afe733-2839-4603-8373-b2202d4810fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plestrategico]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

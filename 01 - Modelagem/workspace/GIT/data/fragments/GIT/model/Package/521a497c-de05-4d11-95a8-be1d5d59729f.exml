@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="521a497c-de05-4d11-95a8-be1d5d59729f"/>
+    <COMPID name="DUC - Planejamento" mc="UseCaseDiagram" uid="6ac2fe4c-6697-4661-9d1f-c19eb08d584f"/>
+    <COMPID name="Manter Planos Estratégicos" mc="UseCase" uid="e5a96a30-649e-48d4-8cc9-7b895c415f7a"/>
+    <COMPID name="Manter Planos de TI" mc="UseCase" uid="f743c3c2-6af9-47c9-beac-3725638096e1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="521a497c-de05-4d11-95a8-be1d5d59729f"/>
+    <PID name="B02 - Planejamento" mc="Package" uid="10c2618b-164c-4435-a330-8e9e3ea16ba9"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Planos Estratégicos" mc="UseCase" uid="e5a96a30-649e-48d4-8cc9-7b895c415f7a"/>
+        <COMPID name="Manter Planos de TI" mc="UseCase" uid="f743c3c2-6af9-47c9-beac-3725638096e1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Planejamento" mc="UseCaseDiagram" uid="6ac2fe4c-6697-4661-9d1f-c19eb08d584f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

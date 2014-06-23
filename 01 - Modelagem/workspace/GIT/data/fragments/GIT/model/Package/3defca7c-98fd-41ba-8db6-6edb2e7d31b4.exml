@@ -1,0 +1,67 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="3defca7c-98fd-41ba-8db6-6edb2e7d31b4"/>
+    <COMPID name="DCL - ADM Configurações" mc="ClassDiagram" uid="df2d1de6-54ce-4ada-b49f-6a2b32b279b5"/>
+    <COMPID name="ambiente" mc="Class" uid="4accf03f-9d01-43bb-8d83-7ee6b46c36eb"/>
+    <COMPID name="area" mc="Class" uid="876317d3-4e1f-4dce-9351-69fb9871664d"/>
+    <COMPID name="atividaderoteiro" mc="Class" uid="f7940b5c-d33a-4fc7-9c89-c9a2d8e73b61"/>
+    <COMPID name="divisao" mc="Class" uid="64f128f5-a16b-4217-bbd9-875d7de88d48"/>
+    <COMPID name="faseroteiro" mc="Class" uid="afa345d4-00a3-46fc-bb23-53105127722f"/>
+    <COMPID name="metodologia" mc="Class" uid="ccefe3ba-686c-4330-ba38-9d5620f1d894"/>
+    <COMPID name="modeloapf" mc="Class" uid="bcd698cb-7d1e-4c71-b97e-e04a7d5937ef"/>
+    <COMPID name="organizacao" mc="Class" uid="b27921b5-af82-4aad-9eca-57f97a9384c9"/>
+    <COMPID name="parametrosmodeloapf" mc="Class" uid="5c096830-c046-44b9-aa6d-bc4d35ab386c"/>
+    <COMPID name="parquestaococomoii" mc="Class" uid="2cc49e6c-d1d6-4c07-90ac-e2f253840e7e"/>
+    <COMPID name="plataforma" mc="Class" uid="fb1f194d-dff0-4016-a622-b653ff68143e"/>
+    <COMPID name="propositotpcontagem" mc="Class" uid="b0afd08f-5b53-4335-8373-98d6cc3348c9"/>
+    <COMPID name="roteiro" mc="Class" uid="bd342fb7-9a46-4420-a193-f355801cc411"/>
+    <COMPID name="tecnologia" mc="Class" uid="1977ae06-f015-4f3a-b5da-66e01b1d678f"/>
+    <COMPID name="tiposistemajones" mc="Class" uid="f06803eb-6af4-4950-b4b5-288f304a4fb7"/>
+    <COMPID name="tpcontagem" mc="Class" uid="b3643e48-9f56-44ef-88ef-592a1b4229ed"/>
+    <COMPID name="tpelemento" mc="Class" uid="7d3d7f9f-8816-4968-8909-c228c68ede33"/>
+    <COMPID name="tpmanutencao" mc="Class" uid="cad0117b-c9b1-4a49-9771-8ae8de55a8aa"/>
+    <COMPID name="usuariosuportetv" mc="Class" uid="ef04a64f-9597-4313-9a79-47b4596f417d"/>
+    <COMPID name="widgets" mc="Class" uid="35b7c7b8-54b1-48ee-a8bf-328acdd33793"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="3defca7c-98fd-41ba-8db6-6edb2e7d31b4"/>
+    <PID name="A01 - Configurações" mc="Package" uid="0f8f5d29-2036-4a24-95b9-614ff93c3533"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="organizacao" mc="Class" uid="b27921b5-af82-4aad-9eca-57f97a9384c9"/>
+        <COMPID name="area" mc="Class" uid="876317d3-4e1f-4dce-9351-69fb9871664d"/>
+        <COMPID name="divisao" mc="Class" uid="64f128f5-a16b-4217-bbd9-875d7de88d48"/>
+        <COMPID name="plataforma" mc="Class" uid="fb1f194d-dff0-4016-a622-b653ff68143e"/>
+        <COMPID name="tecnologia" mc="Class" uid="1977ae06-f015-4f3a-b5da-66e01b1d678f"/>
+        <COMPID name="metodologia" mc="Class" uid="ccefe3ba-686c-4330-ba38-9d5620f1d894"/>
+        <COMPID name="roteiro" mc="Class" uid="bd342fb7-9a46-4420-a193-f355801cc411"/>
+        <COMPID name="faseroteiro" mc="Class" uid="afa345d4-00a3-46fc-bb23-53105127722f"/>
+        <COMPID name="atividaderoteiro" mc="Class" uid="f7940b5c-d33a-4fc7-9c89-c9a2d8e73b61"/>
+        <COMPID name="ambiente" mc="Class" uid="4accf03f-9d01-43bb-8d83-7ee6b46c36eb"/>
+        <COMPID name="modeloapf" mc="Class" uid="bcd698cb-7d1e-4c71-b97e-e04a7d5937ef"/>
+        <COMPID name="parametrosmodeloapf" mc="Class" uid="5c096830-c046-44b9-aa6d-bc4d35ab386c"/>
+        <COMPID name="parquestaococomoii" mc="Class" uid="2cc49e6c-d1d6-4c07-90ac-e2f253840e7e"/>
+        <COMPID name="tiposistemajones" mc="Class" uid="f06803eb-6af4-4950-b4b5-288f304a4fb7"/>
+        <COMPID name="usuariosuportetv" mc="Class" uid="ef04a64f-9597-4313-9a79-47b4596f417d"/>
+        <COMPID name="widgets" mc="Class" uid="35b7c7b8-54b1-48ee-a8bf-328acdd33793"/>
+        <COMPID name="tpcontagem" mc="Class" uid="b3643e48-9f56-44ef-88ef-592a1b4229ed"/>
+        <COMPID name="propositotpcontagem" mc="Class" uid="b0afd08f-5b53-4335-8373-98d6cc3348c9"/>
+        <COMPID name="tpmanutencao" mc="Class" uid="cad0117b-c9b1-4a49-9771-8ae8de55a8aa"/>
+        <COMPID name="tpelemento" mc="Class" uid="7d3d7f9f-8816-4968-8909-c228c68ede33"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - ADM Configurações" mc="ClassDiagram" uid="df2d1de6-54ce-4ada-b49f-6a2b32b279b5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

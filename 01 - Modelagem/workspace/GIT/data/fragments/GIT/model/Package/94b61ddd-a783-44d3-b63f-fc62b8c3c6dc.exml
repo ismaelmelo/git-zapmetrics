@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interface do Usuário" version="3">
+  <DEPS>
+    <ID name="Interface do Usuário" mc="Package" uid="94b61ddd-a783-44d3-b63f-fc62b8c3c6dc"/>
+    <FOREIGNID name="ApplicationArchitectureDomain" mc="Stereotype" uid="3d6f7e12-ab91-11df-9861-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Interface do Usuário" mc="Package" uid="94b61ddd-a783-44d3-b63f-fc62b8c3c6dc"/>
+    <PID name="Arquitetura Lógica" mc="Package" uid="193a0e33-7ee3-45bc-b6d6-06f8123906f6"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Interface do Usuário]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="ApplicationArchitectureDomain" mc="Stereotype" uid="3d6f7e12-ab91-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="db39d2f7-af24-4e02-a2e4-4bf56a6d6915"/>
+          <PID name="Interface do Usuário" mc="Package" uid="94b61ddd-a783-44d3-b63f-fc62b8c3c6dc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The "Service Data" domain contains the model of messages and message fragments. These messages constitute the information exchanged between IS services. Modelio can generate XSD schema from this model. Messeges will be used as types service parameters.]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="solmetricasocorrencia" version="3">
+  <DEPS>
+    <ID name="solmetricasocorrencia" mc="Class" uid="2a8ce8d3-64f4-45d9-9443-463fedeadbed"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="solmetricasocorrencia" mc="Class" uid="2a8ce8d3-64f4-45d9-9443-463fedeadbed"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[solmetricasocorrencia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

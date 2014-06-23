@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafRole" version="3">
+  <DEPS>
+    <ID name="TogafRole" mc="Stereotype" uid="71075a12-ab76-11df-9861-0014224f9977"/>
+    <EXTID name="OrganizationParticipant" mc="Stereotype" uid="62426be2-ab75-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafRole" mc="Stereotype" uid="71075a12-ab76-11df-9861-0014224f9977"/>
+    <PID name="Business Architecture" mc="Profile" uid="c4b60052-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/profile/Participant32.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/profile/Participant16.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[external role]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Actor]]></ATT>
+      <ATT name="Name"><![CDATA[TogafRole]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="OrganizationParticipant" mc="Stereotype" uid="62426be2-ab75-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="TogafRole_SkillsRequirements" mc="TagType" uid="5df508be-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafRole" mc="Stereotype" uid="71075a12-ab76-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[Skills Requirements]]></ATT>
+            <ATT name="Name"><![CDATA[TogafRole_SkillsRequirements]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafRole_Cardinality" mc="TagType" uid="517c1ab8-6431-11e0-ad1e-bc305ba4815c"/>
+          <PID name="TogafRole" mc="Stereotype" uid="71075a12-ab76-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[TogafRole_Cardinality]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

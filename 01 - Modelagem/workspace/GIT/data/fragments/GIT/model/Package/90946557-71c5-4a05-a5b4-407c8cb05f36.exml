@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrma de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrma de UCs" mc="Package" uid="90946557-71c5-4a05-a5b4-407c8cb05f36"/>
+    <COMPID name="DUC - Projetos" mc="UseCaseDiagram" uid="bd58891d-b90d-43b0-b685-ae5ccd2d6b2b"/>
+    <COMPID name="Manter Projetos e Demandas" mc="UseCase" uid="c85d1489-20cb-46f3-8733-75dcfe160b9e"/>
+    <COMPID name="Manter Prospectos" mc="UseCase" uid="21fa18cd-a3ca-41b7-8004-45fc1a2da5b0"/>
+    <COMPID name="Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+    <COMPID name="Relatório de Projetos - Acompanhamento" mc="UseCase" uid="b789aaf1-9d15-42e8-81d2-af91df2d2c13"/>
+    <COMPID name="Relatório de Prospectos - Total por Categoria" mc="UseCase" uid="edae870c-7c50-44d8-978a-ff887d260231"/>
+    <COMPID name="Relatório de Prospectos - Total por Situação" mc="UseCase" uid="ba4671a0-4b2f-44fd-a01b-136940c33d1a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrma de UCs" mc="Package" uid="90946557-71c5-4a05-a5b4-407c8cb05f36"/>
+    <PID name="B05 - Projetos" mc="Package" uid="9a70ec14-478a-4641-a46f-8346f96dd338"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrma de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Prospectos" mc="UseCase" uid="21fa18cd-a3ca-41b7-8004-45fc1a2da5b0"/>
+        <COMPID name="Manter Projetos e Demandas" mc="UseCase" uid="c85d1489-20cb-46f3-8733-75dcfe160b9e"/>
+        <COMPID name="Relatório de Priorização de Portfólios" mc="UseCase" uid="333a42cc-2c51-4220-b075-c6f55e7db208"/>
+        <COMPID name="Relatório de Prospectos - Total por Situação" mc="UseCase" uid="ba4671a0-4b2f-44fd-a01b-136940c33d1a"/>
+        <COMPID name="Relatório de Prospectos - Total por Categoria" mc="UseCase" uid="edae870c-7c50-44d8-978a-ff887d260231"/>
+        <COMPID name="Relatório de Projetos - Acompanhamento" mc="UseCase" uid="b789aaf1-9d15-42e8-81d2-af91df2d2c13"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Projetos" mc="UseCaseDiagram" uid="bd58891d-b90d-43b0-b685-ae5ccd2d6b2b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

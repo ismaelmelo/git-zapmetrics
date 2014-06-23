@@ -1,0 +1,192 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC034 - Manter Unidades de Medida" version="3">
+  <DEPS>
+    <ID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="78c71e5a-9361-4ea4-9998-3a068acd6db4"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC034 - Manter Unidades de Medida]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="f1edee55-57a3-4a7b-8f75-27160142aa20"/>
+          <PID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Unidades de Medida
+
+FP.1 - O usuário solicita pesquisar Unidades de Medida (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Unidade de Medida
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir uma Unidade de Medida.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Unidade de Medida
+
+FA2.1 - No passo FP.4, o usuário solicita copiar uma Unidade de Medida.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Unidade de Medida
+
+FA3.1 - No passo FP.4, o usuário solicita alterar uma Unidade de Medida.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Unidade de Medida
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar uma Unidade de Medida.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Unidade de Medida
+
+FA5.1 - No passo FP.4, o usuário solicita excluir uma Unidade de Medida.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+- nu_unidade
+- no_unidade
+- ic_ativo]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="ac4ba13c-2d46-4c2d-a0d6-fc2a9d663acf"/>
+          <PID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="6edd3bb2-3dc0-4a89-94ed-5b6f82dde419"/>
+          <PID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="3125c313-48c2-4dd3-81be-3a97f88df485"/>
+          <PID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="0d0e2aab-a51e-4203-9648-54d6062208b9"/>
+          <PID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="7ebe1b27-e636-4162-9aa5-c6c638a6d0f3"/>
+          <PID name="UC034 - Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,251 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC105 - Manter Estimativas Derivadas" version="3">
+  <DEPS>
+    <ID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+    <EXTID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="extend" mc="Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC105 - Manter Estimativas Derivadas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="e7c26dba-d22e-4cde-a91a-e5d6fe2c1d28"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="df008aba-7238-4a7e-9cd9-f6b544d0dca9"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Estimativas Derivadas
+
+FP.1 - O usuário solicita pesquisar Estimativas Derivadas (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Estimativa Derivada
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir uma Estimativa Derivada.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Estimativa Derivada
+
+FA2.1 - No passo FP.4, o usuário solicita copiar uma Estimativa Derivada.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Estimativa Derivada
+
+FA3.1 - No passo FP.4, o usuário solicita alterar uma Estimativa Derivada.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Estimativa Derivada
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar uma Estimativa Derivada.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Estimativa Derivada
+
+FA5.1 - No passo FP.4, o usuário solicita excluir uma Estimativa Derivada.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+- nu_solMetricas
+- nu_estimativa
+- ic_solicitacaoCritica
+- qt_tamBase
+- nu_metPrazo
+- vr_doPf
+- qt_tamBaseFaturamento
+- pz_estimadoMeses
+- pz_estimadoDias
+- vr_ipMaximo
+- vr_ipMedio
+- vr_ipMinimo
+- vr_ipInformado
+- qt_esforco
+- vr_custoDesenv
+- vr_outrosCustos
+- vr_custoTotal
+- ds_observacoes
+- qt_recursosEquipe
+- ic_bloqueio
+- nu_altRELY
+- nu_altDATA
+- nu_altCPLX1
+- nu_altCPLX2
+- nu_altCPLX3
+- nu_altCPLX4
+- nu_altCPLX5
+- nu_altDOCU
+- nu_altRUSE
+- nu_altTIME
+- nu_altSTOR
+- nu_altPVOL
+- nu_altACAP
+- nu_altPCAP
+- nu_altPCON
+- nu_altAPEX
+- nu_altPLEX
+- nu_altLTEX
+- nu_altTOOL
+- nu_altSITE
+- nu_ambienteMaisRepresentativo
+- ic_modeloCocomo]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="a7ba3c7a-04dc-4c96-8db4-2bda905e923e"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="5892aa60-fe42-4e74-b2d4-e8d1c857556f"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="2bbba3b2-0093-4d7e-bc86-e8c04fc66b66"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="f5f4d1cd-0767-4d67-8839-8e7d096bdfc1"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="82a4a85c-9ac6-415f-9fd6-d5a63272cd6d"/>
+          <PID name="UC105 - Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

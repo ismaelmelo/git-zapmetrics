@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="reuniao" version="3">
+  <DEPS>
+    <ID name="reuniao" mc="Class" uid="2dda2b9a-d647-4a45-b2bd-90de6c1c3f03"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="reuniao" mc="Class" uid="2dda2b9a-d647-4a45-b2bd-90de6c1c3f03"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[reuniao]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

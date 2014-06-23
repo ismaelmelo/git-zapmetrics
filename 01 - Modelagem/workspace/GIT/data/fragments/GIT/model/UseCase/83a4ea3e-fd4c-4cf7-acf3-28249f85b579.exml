@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" version="3">
+  <DEPS>
+    <ID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="c48c396c-2242-4f47-99ce-f1ad636bd2f7"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC096 - Relatório de Ambientes Ativos por Tipo de Negócio]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="0817a632-6576-4d63-9535-401bc094e2b5"/>
+          <PID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Emitir Relatório de Ambientes Ativos por Tipo de Negócio
+
+FP.1 - O usuário solicita Emitir Relatório de Ambientes Ativos por Tipo de Negócio.
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA1).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Filtrar Resultados da Pesquisa
+
+FA1.1 - O usuário decide filtrar os dados da pesquisa.
+FA1.2 - O usuário preenche os filtros da pesquisa (INF-01).
+FA1.3 - O usuário confirma a operação.
+FA1.4 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA1.5 - O sistema retorna ao passo FP.4.
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa do Relatório]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="e7849a95-3887-4cf5-874c-e9b748eb8323"/>
+          <PID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="82c97c38-f9f0-49af-be81-995df5bcd450"/>
+          <PID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="702996c0-a81c-40f9-b8e7-e2039cccedb4"/>
+          <PID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="d6d0199e-a572-4cdc-bbb1-39a18a420b44"/>
+          <PID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="7146c2f9-6dfe-4b99-b71f-b481db3f15cf"/>
+          <PID name="UC096 - Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

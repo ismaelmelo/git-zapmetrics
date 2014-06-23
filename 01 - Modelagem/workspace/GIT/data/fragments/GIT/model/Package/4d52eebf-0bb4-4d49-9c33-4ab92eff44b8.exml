@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Projeto" version="3">
+  <DEPS>
+    <ID name="Projeto" mc="Package" uid="4d52eebf-0bb4-4d49-9c33-4ab92eff44b8"/>
+    <COMPID name="Arquitetura" mc="Package" uid="6b18b848-4286-4299-8324-6da188cd31ad"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Projeto" mc="Package" uid="4d52eebf-0bb4-4d49-9c33-4ab92eff44b8"/>
+    <PID name="GIT" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Projeto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Arquitetura" mc="Package" uid="6b18b848-4286-4299-8324-6da188cd31ad"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

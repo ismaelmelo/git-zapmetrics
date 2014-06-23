@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Modelagem" version="3">
+  <DEPS>
+    <ID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <COMPID name="A01 - Configurações" mc="Package" uid="0f8f5d29-2036-4a24-95b9-614ff93c3533"/>
+    <COMPID name="A02 - Domínios" mc="Package" uid="392e0445-3b62-4753-b712-0a432aa9fd02"/>
+    <COMPID name="A03 - Acessos" mc="Package" uid="2c4466c6-421c-462a-94e2-576a44b5b03b"/>
+    <COMPID name="B01 - Painel de Controle" mc="Package" uid="7738df21-f44c-4693-be42-1e9e2a2cf728"/>
+    <COMPID name="B02 - Planejamento" mc="Package" uid="10c2618b-164c-4435-a330-8e9e3ea16ba9"/>
+    <COMPID name="B03 - Grupos e Comitês" mc="Package" uid="04eeef6c-dda0-4025-b4eb-c2797c86b2b4"/>
+    <COMPID name="B04 - Outsourcing" mc="Package" uid="fd7b8e94-b4d4-4f85-9f90-51bebc49256e"/>
+    <COMPID name="B05 - Pessoas" mc="Package" uid="f4ecdeb4-186a-4156-a8de-80e8caed82c1"/>
+    <COMPID name="B06 - Projetos" mc="Package" uid="9a70ec14-478a-4641-a46f-8346f96dd338"/>
+    <COMPID name="B07 - Desenvolvimento" mc="Package" uid="be65797c-a721-4e4c-8cc9-5fcf7f9a0f73"/>
+    <COMPID name="B08 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+    <COMPID name="B09 - Outros" mc="Package" uid="638b4b1f-1a22-4795-b7ce-f1e09c1dee62"/>
+    <COMPID name="C01 - COMUM" mc="Package" uid="4c995660-ba8a-41b8-854e-0e81bc260271"/>
+    <COMPID name="DUC - Atores" mc="UseCaseDiagram" uid="8d73dd3a-a960-4cd8-a752-4aabb19066c7"/>
+    <COMPID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+    <COMPID name="MS Word" mc="Actor" uid="b7c31ed0-61d5-4b08-8de7-e960ef0507ab"/>
+    <COMPID name="Temporizador" mc="Actor" uid="677f274a-fb62-4f13-9368-f1157b5c3f34"/>
+    <COMPID name="Usuário" mc="Actor" uid="1ac653d2-ed2a-482c-be93-91d960013096"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <PID name="GIT" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Modelagem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="A01 - Configurações" mc="Package" uid="0f8f5d29-2036-4a24-95b9-614ff93c3533"/>
+        <COMPID name="A02 - Domínios" mc="Package" uid="392e0445-3b62-4753-b712-0a432aa9fd02"/>
+        <COMPID name="A03 - Acessos" mc="Package" uid="2c4466c6-421c-462a-94e2-576a44b5b03b"/>
+        <COMPID name="B01 - Painel de Controle" mc="Package" uid="7738df21-f44c-4693-be42-1e9e2a2cf728"/>
+        <COMPID name="B02 - Planejamento" mc="Package" uid="10c2618b-164c-4435-a330-8e9e3ea16ba9"/>
+        <COMPID name="B03 - Grupos e Comitês" mc="Package" uid="04eeef6c-dda0-4025-b4eb-c2797c86b2b4"/>
+        <COMPID name="B04 - Outsourcing" mc="Package" uid="fd7b8e94-b4d4-4f85-9f90-51bebc49256e"/>
+        <COMPID name="B05 - Pessoas" mc="Package" uid="f4ecdeb4-186a-4156-a8de-80e8caed82c1"/>
+        <COMPID name="B06 - Projetos" mc="Package" uid="9a70ec14-478a-4641-a46f-8346f96dd338"/>
+        <COMPID name="B07 - Desenvolvimento" mc="Package" uid="be65797c-a721-4e4c-8cc9-5fcf7f9a0f73"/>
+        <COMPID name="B08 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+        <COMPID name="B09 - Outros" mc="Package" uid="638b4b1f-1a22-4795-b7ce-f1e09c1dee62"/>
+        <COMPID name="C01 - COMUM" mc="Package" uid="4c995660-ba8a-41b8-854e-0e81bc260271"/>
+        <COMPID name="Usuário" mc="Actor" uid="1ac653d2-ed2a-482c-be93-91d960013096"/>
+        <COMPID name="Temporizador" mc="Actor" uid="677f274a-fb62-4f13-9368-f1157b5c3f34"/>
+        <COMPID name="MS Word" mc="Actor" uid="b7c31ed0-61d5-4b08-8de7-e960ef0507ab"/>
+        <COMPID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Atores" mc="UseCaseDiagram" uid="8d73dd3a-a960-4cd8-a752-4aabb19066c7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

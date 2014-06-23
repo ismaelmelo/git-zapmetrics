@@ -1,0 +1,136 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC058 - Registrar LOG Externo" version="3">
+  <DEPS>
+    <ID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="f0707904-433d-4349-b471-a06466e634e7"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC058 - Registrar LOG Externo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="59681463-e131-478d-ac15-7c987732f193"/>
+          <PID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Registrar LOG Externo
+
+FP.1 - O sistema recepciona as informações de LOG oriundas do aplicativo externo * (INF-01).
+FP.2 - O sistema valida as informações recebidas.
+FP.3 - O sistema inclui as informações de LOG Externo (INF-02).
+FP.4 - O sistema encerra o caso de uso.
+
+Informações Complementares
+
+INF-01 - Informações Recebidas do MS Word
+INF-02 - Informações Incluídas
+
+* MS Word
+
+Campos Relacionados
+
+- nu_logAcesso
+- ds_caminho
+- no_arquivo
+- nu_sistema
+- nu_uc
+- co_usuarioAd
+- no_usuarioAd
+- ts_acesso]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="5bdb4dd2-e0b2-45da-ad67-f3e83dfa784a"/>
+          <PID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="5f662af8-0627-40f0-b73f-ce43db5b731c"/>
+          <PID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="1f83db04-a878-43ab-9e23-564068708910"/>
+          <PID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="0ffd32fd-1128-4d83-aaca-e83570a6d3b9"/>
+          <PID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="1749d3d3-778a-4726-bca7-f7e96d9fb5e2"/>
+          <PID name="UC058 - Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

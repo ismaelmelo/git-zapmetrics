@@ -1,0 +1,132 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC081 - Relatório de Pessoas por Papel" version="3">
+  <DEPS>
+    <ID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="0199c693-901d-4c7a-b4ab-df5e026e9010"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC081 - Relatório de Pessoas por Papel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="822e225f-6f0e-4b33-b974-b3d4eecd7482"/>
+          <PID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Emitir Relatório de Pessoas por Papel
+
+FP.1 - O usuário solicita Emitir Relatório de Pessoas por Papel.
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA1).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Filtrar Resultados da Pesquisa
+
+FA1.1 - O usuário decide filtrar os dados da pesquisa.
+FA1.2 - O usuário preenche os filtros da pesquisa (INF-01).
+FA1.3 - O usuário confirma a operação.
+FA1.4 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA1.5 - O sistema retorna ao passo FP.4.
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa do Relatório]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="0b2b8fb6-15c1-4df8-8cb6-96732194758c"/>
+          <PID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="2ad198ca-ebe0-40c9-a2af-9e77a63bee21"/>
+          <PID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="b07b1b19-10dd-4b2d-b5ed-bbbcd25a15f7"/>
+          <PID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="af7013c2-c744-4625-93e3-dc15a15754fb"/>
+          <PID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c7a8567b-78f6-4eeb-a5f7-7e569f5cea6d"/>
+          <PID name="UC081 - Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

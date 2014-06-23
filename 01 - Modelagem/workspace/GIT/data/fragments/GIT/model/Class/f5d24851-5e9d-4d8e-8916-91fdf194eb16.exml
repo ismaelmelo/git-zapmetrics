@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="papel" version="3">
+  <DEPS>
+    <ID name="papel" mc="Class" uid="f5d24851-5e9d-4d8e-8916-91fdf194eb16"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="papel" mc="Class" uid="f5d24851-5e9d-4d8e-8916-91fdf194eb16"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="ecffd579-0189-40bb-a415-dcf5d6983abc"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[papel]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

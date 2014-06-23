@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="fornecedor" version="3">
+  <DEPS>
+    <ID name="fornecedor" mc="Class" uid="115cc1bc-a5ea-45ef-9809-170c9dd9049f"/>
+    <EXTID name="os" mc="Class" uid="0211c106-8eaa-4c50-98b7-3e92a2abd59b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="fornecedor" mc="Class" uid="115cc1bc-a5ea-45ef-9809-170c9dd9049f"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="6ab2908b-f5c8-4f18-9ed6-d4166856a50e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[fornecedor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedNaryEnd">
+        <OBJECT>
+          <ID name="" mc="NaryAssociationEnd" uid="6ee08679-d5ee-484f-bc13-30e88f79e13d"/>
+          <PID name="fornecedor" mc="Class" uid="115cc1bc-a5ea-45ef-9809-170c9dd9049f"/>
+          <ATTRIBUTES>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="NaryAssociation">
+              <REFOBJ>
+                <ID name="" mc="NaryAssociation" uid="4eba1f78-c26a-47b6-b274-33f0827cc510"/>
+                <PID name="os" mc="Class" uid="0211c106-8eaa-4c50-98b7-3e92a2abd59b"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

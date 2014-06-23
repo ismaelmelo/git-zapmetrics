@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="regraversao" version="3">
+  <DEPS>
+    <ID name="regraversao" mc="Class" uid="d0c4fcc0-9238-40c5-a555-5adfae36663d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="regraversao" mc="Class" uid="d0c4fcc0-9238-40c5-a555-5adfae36663d"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="050049a6-6d05-4be5-b5b6-b49695ed33f7"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[regraversao]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

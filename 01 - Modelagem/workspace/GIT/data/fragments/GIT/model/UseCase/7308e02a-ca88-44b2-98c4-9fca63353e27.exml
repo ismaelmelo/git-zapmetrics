@@ -1,0 +1,152 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC057 - Pesquisar LOG Externo" version="3">
+  <DEPS>
+    <ID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="f0707904-433d-4349-b471-a06466e634e7"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC057 - Pesquisar LOG Externo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="a816398f-4915-401e-aaf0-485a9cdfeea3"/>
+          <PID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar LOGs Externos
+
+FP.1 - O usuário solicita pesquisar LOGs Externos.
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01, FA1).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA2).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Filtrar Resultados da Pesquisa
+
+FA1.1 - O usuário decide filtrar os dados da pesquisa.
+FA1.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA1.2 - O usuário confirma a operação.
+FA1.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA1.4 - O sistema retorna ao passo FP.4.
+
+FA2 - Consultar LOG Externo
+
+FA2.1 - No passo FP.4, o usuário solicita consultar uma Área da Organização.
+FA2.2 - O sistema apresenta as informações do registro (INF-03).
+FA2.3 - O sistema retorna ao fluxo FP.5.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas de LOG Externo
+
+Campos Relacionados
+
+- nu_logAcesso
+- ds_caminho
+- no_arquivo
+- nu_sistema
+- nu_uc
+- co_usuarioAd
+- no_usuarioAd
+- ts_acesso]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="97f077a4-7fca-431c-9b00-54baa2987200"/>
+          <PID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="12e68a5a-bdca-4671-aa05-66c19ca93e94"/>
+          <PID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="364521f2-b2c1-44c0-888a-1f8782e4578e"/>
+          <PID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="3a662ae6-8ef0-4462-bce2-98c1ad5e6351"/>
+          <PID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="6490d7b4-535d-4901-921c-cb2ba91905e7"/>
+          <PID name="UC057 - Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

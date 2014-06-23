@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="B03 - Grupos e Comitês" version="3">
+  <DEPS>
+    <ID name="B03 - Grupos e Comitês" mc="Package" uid="04eeef6c-dda0-4025-b4eb-c2797c86b2b4"/>
+    <COMPID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+    <COMPID name="DUC - Diagrama de UCs" mc="Package" uid="7ea54179-f5de-4ea2-ae13-6e35657e35dc"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="B03 - Grupos e Comitês" mc="Package" uid="04eeef6c-dda0-4025-b4eb-c2797c86b2b4"/>
+    <PID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[B03 - Grupos e Comitês]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DUC - Diagrama de UCs" mc="Package" uid="7ea54179-f5de-4ea2-ae13-6e35657e35dc"/>
+        <COMPID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

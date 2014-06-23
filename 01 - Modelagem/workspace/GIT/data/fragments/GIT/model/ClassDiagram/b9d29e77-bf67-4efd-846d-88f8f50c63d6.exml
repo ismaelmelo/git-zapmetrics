@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Planejamento" version="3">
+  <DEPS>
+    <ID name="DCL - Planejamento" mc="ClassDiagram" uid="b9d29e77-bf67-4efd-846d-88f8f50c63d6"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Planejamento" mc="ClassDiagram" uid="b9d29e77-bf67-4efd-846d-88f8f50c63d6"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="10afe733-2839-4603-8373-b2202d4810fc"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">49</ATT>
+      <ATT name="UiData"><![CDATA[eJztm11P4zgUhv9K1PuUJk7SVjCMdmHFomUYRKW52BvkJE4xOHFluwPl16+dfminsK3rNk7KRkLQuM2xnTx2ztvzcvb1NSfOT8Q4psWXjtftdZyv52ff4yeUCAensqnjiNkEfelQNu7mNEUE026K4ZjBvItSLCjrcgEFfu4ignJUCD4/TpYfuspH5fHl/Ljj5PCJsodVp73O+dkdoxPExMwpYC77InBGp+ISCijf+wHJFC0GUUwJ6Zycn50sT3h36kjMCOr8MgV/0xS4+jzvJpSh7vxcjfFdQJ7AFKXLzv54Ffco0+zlVoZYnOmgV3EZX8sxli/VixRlcErE2iRP5tPZNHGGCBQoleNYu2bfVJPzU7XIkRPI+eJOOPEw9Yeo33fjLOq7AcpSdxBE8tcgG2RhL4lAGm2+2jKa+KugL8UNjBFZ63gkGC7Gq64vL24c17kjsEBPUIFCN8dmlKDr4oLmE8qxkLdic/jNwS4eMUkZUjFuMBe/8AEMEE8IfHuTaJfXcy+k7+UwYDFWNCxm4ofDU6/vn7qe/NmZ9qBy2hXq83VVJaSOF4UDBMDQ9aIokXSmiQu9OHa9LPJANuj3fS8+HJ0TeV0Ek4Mb46QpYIb7gnnHcA7Z7Faean/bjXRBlKFeZ3vTGLQ06tD4DeKi5MGYyr4BlSoqn8AEPSJ575jk83bZ8mfZYh/PgbV9cv0Z2pL5YeQFCBtD8kf68iA7Xg/1O5V9wWIVK4OEb0G8DPWMZi+UpQeIJmDy/MAFYohuiSbYVGdo5IN7sXsoGKu7lQiDGa4w/deiGZo9kTjHGS6X/cXq4B5x/AZjgq4YnU7sr3+vZ/f51O4CFWdLnolUhUJ2H0/lRBSFEtDflg11YamtVg+DpVwGLZcaXK5xsRulJ4s/mzdXz0SIqoBQDX8J8PdlQ10AawvQFmCriT8SjzStkF4TtYoLmTEVMvmQmUwiphKKq/x60TZattXAsGXt2jKsx/ASjT2SBBP1qkVpXdutto49EKqfIo89JJQVbqkmcksL1r9pUcO26luWXJ+D1eq31ZKGgwGsx7ZvotZwUSBWfp9QQi0P9q+/qLUxVl9ALi6GQcnFbzVbI7kuCTHPFXwTPfYfiNaUHfiWxZjf1gRrzhl8Mxn2IbSI15QnWJZfLbUNyxPev7XWD+Y/5BFOoEGFRL+X91X07gKvLTkE0Cil+EZKNIdjtCqmliUitWJVqyqojlTrHJFDpkTrpXWNFWxZlbbFf60FPJJBCcFCp/545FVW3bEZlll3VTuGhdPqPGZR7xQEPUOPGdAW8k03mQ3jIAYZAm4Sx303CDPoDvwwdEESguEADlKvt+Xy7LayBW5ItRSY6O/mmMuAZckNKpbcR87h/q4yYCK2G2grA/b8t6DdG1s/2XH7yYChxbmJhjJg+VuLdvlXlRqZKPPGGcmAZQkOKi62HTmOFvxjwERkqoCN8o8FlovELbe12sYCszpwI21jgW1R2qJbrVssMKsAN9ctFliuBwefIkc9jspvUJkBt54qcGD7H0g/BauV7aZ1mMQCM7duI01iQavHmoTznt6wwMya2yRvWGhZaMkF0AJZR2IQHtBqW5clLLQsrVpYm5EM/B+cYKGRyjwSJ1hoWXG2hfrWAdYYB9jWfeUGF89cY4v8Bx+14BY=]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[DCL - Planejamento]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

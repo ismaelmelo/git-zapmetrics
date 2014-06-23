@@ -1,0 +1,193 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC008 - Manter Probabilidades de Risco" version="3">
+  <DEPS>
+    <ID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="2d919359-bd81-4aea-896a-73fc93f56965"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC008 - Manter Probabilidades de Risco]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="521db5d9-3ddd-470a-a141-b9816e1c0260"/>
+          <PID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Probabilidades de Risco
+
+FP.1 - O usuário solicita pesquisar as áreas de uma Organização (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Área da Organização
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir uma Área da Organização.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Área da Organização
+
+FA2.1 - No passo FP.4, o usuário solicita copiar uma Área da Organização.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Área da Organização
+
+FA3.1 - No passo FP.4, o usuário solicita alterar uma Área da Organização.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Área da Organização
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar uma Área da Organização.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Área da Organização
+
+FA5.1 - No passo FP.4, o usuário solicita excluir uma Área da Organização.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+- nu_probOcoRisco
+- no_probOcoRisco
+- nu_valor
+- ic_ativo]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="233fe876-0dfb-4638-a2dc-87321c832533"/>
+          <PID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="890af9b4-61f6-4991-885a-9a05ec62531b"/>
+          <PID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="23121664-184f-42a7-b338-6f06a27bddfa"/>
+          <PID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="7995a6d1-7578-44ee-b3f6-c2f385df8759"/>
+          <PID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="4a8920b1-5a94-4016-a880-c1799111d463"/>
+          <PID name="UC008 - Manter Probabilidades de Risco" mc="UseCase" uid="12a4c2aa-84ab-4648-9bf9-5ce488f495ef"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="78c71e5a-9361-4ea4-9998-3a068acd6db4"/>
+    <COMPID name="DUC - ADM Acessos" mc="UseCaseDiagram" uid="be2bd14f-ea13-42b6-9ac4-1b43b6f84cbe"/>
+    <COMPID name="DUC - ADM Comum" mc="UseCaseDiagram" uid="ff0ad04c-6cf1-410f-a574-844d4b066169"/>
+    <COMPID name="DUC - ADM Desenvolvimento" mc="UseCaseDiagram" uid="8feb10db-0004-4cb0-8415-53859582aa76"/>
+    <COMPID name="DUC - ADM Métricas" mc="UseCaseDiagram" uid="97aee247-09a1-4e40-a5f2-930cef1da75d"/>
+    <COMPID name="DUC - ADM Outsourcing" mc="UseCaseDiagram" uid="5c7a85dd-8f5b-4356-abfa-fef5ee204643"/>
+    <COMPID name="DUC - ADM Planejamento" mc="UseCaseDiagram" uid="bf6fd541-126a-4b6f-853f-afb8d1d7a412"/>
+    <COMPID name="DUC - ADM Projetos" mc="UseCaseDiagram" uid="3a281d2f-0999-4ca5-8812-20d8bf037e66"/>
+    <COMPID name="Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+    <COMPID name="Manter Categorias de Prospectos" mc="UseCase" uid="8bfc0c1a-a160-43a3-bab6-2535daf98e64"/>
+    <COMPID name="Manter Origens de Necessidades de TI" mc="UseCase" uid="bde96dba-c958-4cce-9628-371d738fdc0e"/>
+    <COMPID name="Manter Situações de Casos de Uso" mc="UseCase" uid="3515a719-1776-4891-b2e0-12e8159011d0"/>
+    <COMPID name="Manter Situações de Contagem" mc="UseCase" uid="788301bf-f1ac-4236-80bc-f998cf59d987"/>
+    <COMPID name="Manter Situações de Contratos" mc="UseCase" uid="2d91c37f-0959-43a4-8025-4ae8ea7b82e6"/>
+    <COMPID name="Manter Situações de Faturas" mc="UseCase" uid="8bbc16ca-5ad0-48ec-bc41-a616fbe233bc"/>
+    <COMPID name="Manter Situações de Fornecedores" mc="UseCase" uid="09a950ec-2893-4336-8793-d4bde687debe"/>
+    <COMPID name="Manter Situações de Mensagens" mc="UseCase" uid="fcb0cbf9-8f2f-4030-b94d-92d8beaacb04"/>
+    <COMPID name="Manter Situações de OC" mc="UseCase" uid="b869a4ee-994a-4124-ae42-f78da7bc6a41"/>
+    <COMPID name="Manter Situações de OS" mc="UseCase" uid="7d9aca94-49b3-4107-b44c-b1b76ceff9ec"/>
+    <COMPID name="Manter Situações de Regras de Negócio" mc="UseCase" uid="0856b537-af65-498e-b689-048b082dee09"/>
+    <COMPID name="Manter Situações de Sistemas/ Módulos" mc="UseCase" uid="19463f72-7894-4924-941f-6b202ad475fb"/>
+    <COMPID name="Manter Situações de Usuários" mc="UseCase" uid="a7ecf8cf-27b9-41f5-9533-5d6242f7f20c"/>
+    <COMPID name="Manter Tipos de Faturas" mc="UseCase" uid="3a1d6646-ee73-4132-b435-8bcdbc722219"/>
+    <COMPID name="Manter Tipos de Item" mc="UseCase" uid="af507ed7-0f1d-4c98-8aab-20cc6ea4227f"/>
+    <COMPID name="Manter Tipos de Necessidades de TI" mc="UseCase" uid="71a0e3ad-0bd7-40a9-9158-c6e4c3475ca8"/>
+    <COMPID name="Manter Tipos de Negócio" mc="UseCase" uid="88bd8378-f48a-4963-a091-f2ea4b590ddc"/>
+    <COMPID name="Manter Tipos de Projetos" mc="UseCase" uid="3d9318eb-dc32-48a2-8918-13005d8b4953"/>
+    <COMPID name="Manter Tipos de Solicitações" mc="UseCase" uid="f7a5b043-c024-4fbb-aaf8-6c5e4f88a7a6"/>
+    <COMPID name="Manter Tipos de Área" mc="UseCase" uid="3d8b017d-f52d-4805-b220-5c8f64181087"/>
+    <COMPID name="Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+    <COMPID name="Manter Verticais de Negócio" mc="UseCase" uid="f9a4eca9-dfba-4f61-bcb7-3f350d0b42d5"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="78c71e5a-9361-4ea4-9998-3a068acd6db4"/>
+    <PID name="A02 - Domínios" mc="Package" uid="392e0445-3b62-4753-b712-0a432aa9fd02"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+        <COMPID name="Manter Verticais de Negócio" mc="UseCase" uid="f9a4eca9-dfba-4f61-bcb7-3f350d0b42d5"/>
+        <COMPID name="Manter Tipos de Negócio" mc="UseCase" uid="88bd8378-f48a-4963-a091-f2ea4b590ddc"/>
+        <COMPID name="Manter Tipos de Área" mc="UseCase" uid="3d8b017d-f52d-4805-b220-5c8f64181087"/>
+        <COMPID name="Manter Situações de Usuários" mc="UseCase" uid="a7ecf8cf-27b9-41f5-9533-5d6242f7f20c"/>
+        <COMPID name="Manter Origens de Necessidades de TI" mc="UseCase" uid="bde96dba-c958-4cce-9628-371d738fdc0e"/>
+        <COMPID name="Manter Tipos de Necessidades de TI" mc="UseCase" uid="71a0e3ad-0bd7-40a9-9158-c6e4c3475ca8"/>
+        <COMPID name="Manter Tipos de Item" mc="UseCase" uid="af507ed7-0f1d-4c98-8aab-20cc6ea4227f"/>
+        <COMPID name="Manter Unidades de Medida" mc="UseCase" uid="e9a18dc7-ab41-4b32-8019-690100e316de"/>
+        <COMPID name="Manter Situações de Fornecedores" mc="UseCase" uid="09a950ec-2893-4336-8793-d4bde687debe"/>
+        <COMPID name="Manter Situações de Contratos" mc="UseCase" uid="2d91c37f-0959-43a4-8025-4ae8ea7b82e6"/>
+        <COMPID name="Manter Situações de OS" mc="UseCase" uid="7d9aca94-49b3-4107-b44c-b1b76ceff9ec"/>
+        <COMPID name="Manter Tipos de Faturas" mc="UseCase" uid="3a1d6646-ee73-4132-b435-8bcdbc722219"/>
+        <COMPID name="Manter Situações de OC" mc="UseCase" uid="b869a4ee-994a-4124-ae42-f78da7bc6a41"/>
+        <COMPID name="Manter Situações de Faturas" mc="UseCase" uid="8bbc16ca-5ad0-48ec-bc41-a616fbe233bc"/>
+        <COMPID name="Manter Categorias de Prospectos" mc="UseCase" uid="8bfc0c1a-a160-43a3-bab6-2535daf98e64"/>
+        <COMPID name="Manter Tipos de Projetos" mc="UseCase" uid="3d9318eb-dc32-48a2-8918-13005d8b4953"/>
+        <COMPID name="Manter Situações de Sistemas/ Módulos" mc="UseCase" uid="19463f72-7894-4924-941f-6b202ad475fb"/>
+        <COMPID name="Manter Situações de Regras de Negócio" mc="UseCase" uid="0856b537-af65-498e-b689-048b082dee09"/>
+        <COMPID name="Manter Situações de Casos de Uso" mc="UseCase" uid="3515a719-1776-4891-b2e0-12e8159011d0"/>
+        <COMPID name="Manter Situações de Mensagens" mc="UseCase" uid="fcb0cbf9-8f2f-4030-b94d-92d8beaacb04"/>
+        <COMPID name="Manter Tipos de Solicitações" mc="UseCase" uid="f7a5b043-c024-4fbb-aaf8-6c5e4f88a7a6"/>
+        <COMPID name="Manter Situações de Contagem" mc="UseCase" uid="788301bf-f1ac-4236-80bc-f998cf59d987"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - ADM Comum" mc="UseCaseDiagram" uid="ff0ad04c-6cf1-410f-a574-844d4b066169"/>
+        <COMPID name="DUC - ADM Acessos" mc="UseCaseDiagram" uid="be2bd14f-ea13-42b6-9ac4-1b43b6f84cbe"/>
+        <COMPID name="DUC - ADM Planejamento" mc="UseCaseDiagram" uid="bf6fd541-126a-4b6f-853f-afb8d1d7a412"/>
+        <COMPID name="DUC - ADM Outsourcing" mc="UseCaseDiagram" uid="5c7a85dd-8f5b-4356-abfa-fef5ee204643"/>
+        <COMPID name="DUC - ADM Projetos" mc="UseCaseDiagram" uid="3a281d2f-0999-4ca5-8812-20d8bf037e66"/>
+        <COMPID name="DUC - ADM Desenvolvimento" mc="UseCaseDiagram" uid="8feb10db-0004-4cb0-8415-53859582aa76"/>
+        <COMPID name="DUC - ADM Métricas" mc="UseCaseDiagram" uid="97aee247-09a1-4e40-a5f2-930cef1da75d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

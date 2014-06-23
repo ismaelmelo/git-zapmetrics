@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafDiagram" version="3">
+  <DEPS>
+    <ID name="TogafDiagram" mc="Stereotype" uid="739c6ff2-ab6d-11df-9861-0014224f9977"/>
+    <EXTID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafDiagram" mc="Stereotype" uid="739c6ff2-ab6d-11df-9861-0014224f9977"/>
+    <PID name="Structure" mc="Profile" uid="bcbac7ba-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/profile/TogafDiagram16.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/profile/TogafDiagram16.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[TogafDiagram]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[StaticDiagram]]></ATT>
+      <ATT name="Name"><![CDATA[TogafDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="DefinedNoteType">
+        <OBJECT>
+          <ID name="TOGAFModelingGuide" mc="NoteType" uid="82545d7b-6433-11e0-ad1e-bc305ba4815c"/>
+          <PID name="TogafDiagram" mc="Stereotype" uid="739c6ff2-ab6d-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[TOGAFModelingGuide]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

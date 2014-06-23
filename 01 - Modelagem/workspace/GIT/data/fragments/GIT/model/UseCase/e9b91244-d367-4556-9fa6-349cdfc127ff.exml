@@ -1,0 +1,213 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC067 - Manter Demandas" version="3">
+  <DEPS>
+    <ID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="0e99f12a-ca6b-4cc0-bac9-47974381d163"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC067 - Manter Demandas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="93f65619-0f4d-4b85-8cec-1d4959d71007"/>
+          <PID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Demandas
+
+FP.1 - O usuário solicita pesquisar Demandas (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Demanda
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir uma Demanda.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Demanda
+
+FA2.1 - No passo FP.4, o usuário solicita copiar uma Demanda.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Demanda
+
+FA3.1 - No passo FP.4, o usuário solicita alterar uma Demanda.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Demanda
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar uma Demanda.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Demanda
+
+FA5.1 - No passo FP.4, o usuário solicita excluir uma Demanda.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+DEMANDA
+- nu_demanda
+- ds_demanda
+- nu_pessoaResponsavel
+- nu_itemPDTI
+- dt_registro
+- im_anexo
+- ic_situacao
+- dt_aprovacao
+- nu_pessoaAprovadora
+- nu_usuario
+- ts_datahora
+
+ARTEFATO DA DEMANDA
+- nu_artefato
+- nu_demanda
+- ic_tpArtefato
+- no_local
+- im_anexo
+- ic_situacao
+- nu_pessoaResp
+- nu_usuario
+- ts_datahora
+]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="fd4977d7-cb48-4682-85f9-8e23f1b2e0d3"/>
+          <PID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="41bf5721-8659-4c08-80a1-c28ebad57633"/>
+          <PID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c5aa8c7b-aaf9-4b22-bfb1-02ff5ccc7266"/>
+          <PID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="b25af3f2-18df-4f1d-85f1-91e60db0f25c"/>
+          <PID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="670cf373-f081-459f-8b62-f9ca65da1f6a"/>
+          <PID name="UC067 - Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

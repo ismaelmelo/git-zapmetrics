@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="estimativa" version="3">
+  <DEPS>
+    <ID name="estimativa" mc="Class" uid="62de01cb-6968-4c2f-9e48-bb235c797b60"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="estimativa" mc="Class" uid="62de01cb-6968-4c2f-9e48-bb235c797b60"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[estimativa]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

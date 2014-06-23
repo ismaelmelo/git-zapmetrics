@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Testes" version="3">
+  <DEPS>
+    <ID name="Testes" mc="Package" uid="af72bead-8fa8-4d42-a143-e18720843d85"/>
+    <COMPID name="CT001" mc="Package" uid="0df64eb6-65e5-475a-9351-0595043393f1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Testes" mc="Package" uid="af72bead-8fa8-4d42-a143-e18720843d85"/>
+    <PID name="GIT" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Testes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="CT001" mc="Package" uid="0df64eb6-65e5-475a-9351-0595043393f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

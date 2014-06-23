@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GIT" version="3">
+  <DEPS>
+    <ID name="GIT" mc="AnalystProject" uid="c36d3f10-638a-4ba7-82a4-fadf6ec6b351"/>
+    <COMPID name="GIT" mc="PropertyContainer" uid="fb8df4b5-44c5-4dfd-a2a8-7f3bcd67a3ab"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="GIT" mc="AnalystProject" uid="c36d3f10-638a-4ba7-82a4-fadf6ec6b351"/>
+    <ATTRIBUTES>
+      <ATT name="Name"><![CDATA[GIT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="PropertyRoot">
+        <COMPID name="GIT" mc="PropertyContainer" uid="fb8df4b5-44c5-4dfd-a2a8-7f3bcd67a3ab"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

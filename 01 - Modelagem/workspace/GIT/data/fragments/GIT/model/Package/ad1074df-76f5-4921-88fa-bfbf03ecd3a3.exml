@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="ad1074df-76f5-4921-88fa-bfbf03ecd3a3"/>
+    <COMPID name="DUC - Painel de Controle" mc="UseCaseDiagram" uid="9cd96ddb-dc33-4898-aa48-72ca080259b7"/>
+    <COMPID name="Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="ad1074df-76f5-4921-88fa-bfbf03ecd3a3"/>
+    <PID name="B01 - Painel de Controle" mc="Package" uid="7738df21-f44c-4693-be42-1e9e2a2cf728"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Painel de Controle" mc="UseCaseDiagram" uid="9cd96ddb-dc33-4898-aa48-72ca080259b7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

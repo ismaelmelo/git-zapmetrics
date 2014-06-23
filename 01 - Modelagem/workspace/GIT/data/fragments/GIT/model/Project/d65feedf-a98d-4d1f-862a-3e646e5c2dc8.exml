@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GIT" version="3">
+  <DEPS>
+    <ID name="GIT" mc="Project" uid="d65feedf-a98d-4d1f-862a-3e646e5c2dc8"/>
+    <COMPID name="GIT" mc="DiagramSet" uid="33451062-b9c3-4340-afb4-86caf8a44ffd"/>
+    <COMPID name="git" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="GIT" mc="Project" uid="d65feedf-a98d-4d1f-862a-3e646e5c2dc8"/>
+    <ATTRIBUTES>
+      <ATT name="ProjectContext"></ATT>
+      <ATT name="ProjectDescr"></ATT>
+      <ATT name="Name"><![CDATA[GIT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DiagramRoot">
+        <COMPID name="GIT" mc="DiagramSet" uid="33451062-b9c3-4340-afb4-86caf8a44ffd"/>
+      </COMP>
+      <COMP relation="Model">
+        <COMPID name="git" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,204 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Plano de Projeto" version="3">
+  <DEPS>
+    <ID name="Plano de Projeto" mc="Package" uid="299da99c-8688-4c6e-a956-0b4a7ccfeda2"/>
+    <FOREIGNID name="TechnologyArchitecture" mc="Stereotype" uid="614d3022-ab6d-11df-9861-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Plano de Projeto" mc="Package" uid="299da99c-8688-4c6e-a956-0b4a7ccfeda2"/>
+    <PID name="GIT" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Plano de Projeto]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="TechnologyArchitecture" mc="Stereotype" uid="614d3022-ab6d-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="8d39a652-3112-42d2-83df-bdd3b5aef9cd"/>
+          <PID name="Plano de Projeto" mc="Package" uid="299da99c-8688-4c6e-a956-0b4a7ccfeda2"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Plano de Projeto
+Desenvolvimento do Sistema GIT (Gerenciamento de Informações de TI)
+
+1.	Introdução – contextualização e apresentação do projeto;
+
+Será criado um sistema/ componente para gerenciamento de segurança com base em uma arquitetura SOA, o qual poderá ser usado para utilização de qualquer sistema-usuário WEB, para o controle de usuários, perfil, sistemas e trilha de auditoria.
+
+a.	Objetivo do projeto 
+
+i.	Objetivo geral 
+
+O presente projeto visa criar uma aplicação para o gerenciamento de segurança de acesso de sistemas corporativos baseado em arquitetura SOA e que poderá ser utilizado por qualquer aplicação web para controle de segurança e gerenciamento de trilha de auditoria/ log, sendo aplicável em diferentes contextos organizacionais.
+
+ii.	Objetivos específicos
+
+Minimamente, para que o objetivo do projeto seja atingido, será necessário:
+
+•	Definir uma estratégia de desenvolvimento do aplicativo;
+•	E que o sistema:
+•	  Permita o cadastro de usuários;
+•	  Permita o cadastro de perfis;
+•	  Defina perfis para usuário;
+•	  Registre trilhas de auditoria. 
+
+2.	Empresas/ Órgãos Envolvidos no Desenvolvimento do projeto;
+
+Nenhuma empresa será envolvida durante o projeto, tão pouco há alguma organização diretamente responsável pelo mesmo, sendo esta apenas uma iniciativa de alunos de graduandos na Universidade do Vale do Rio dos Sinos – UNISINOS. 
+
+3.	Stakeholders, Expectativas e Resultados esperados;
+
+Os Stakeholders deste projeto são os alunos de graduação da universidade supracitada, o professor da turma de Desenvolvimento de Software III e as pessoas físicas e jurídicas, que por ventura, no futuro venham a se beneficiar do produto gerado. 
+
+Expectativas
+
+Controlar os acessos aos sistemas como qualquer intervenção do usuário melhorando a segurança de uso e restrições a informações
+
+Resultados Esperados
+
+Disponibilizar um sistema compacto e seguro, e que atenda diferentes requisitos básicos de gerenciamento de segurança comuns a diferentes contextos organizacionais.
+
+4.	Premissas
+
+a.	Premissas do Projeto 
+
+Algumas premissas deverão ser observadas para o projeto em questão:
+
+•	A data limite para a finalização do projeto será 16/06/2014;
+•	O escopo do projeto não sofrerá mudanças significativas.
+
+b.	Premissas do Produto do projeto;
+
+Em relação ao produto do projeto, deverão também ser observadas as seguintes premissas:
+
+•	Somente aplicações web utilizarão os serviços a serem criados;
+•	Durante a construção do produto será utilizada uma ferramenta geradora de código visando otimizar o tempo de desenvolvimento da aplicação;
+•	O escopo do projeto não sofrerá mudanças significativas;
+•	O sistema será disponibilizado em ambiente único pré-produção ou mais especificamente em ambiente de testes;
+•	O sistema não será efetivamente implantado em produção, ficando isto a cargo de um papel de Analista de Implantação, não previsto neste projeto.
+
+5.	Gerenciamento de Escopo
+
+a.	Requisitos do projeto
+
+i.	Funcionais
+
+•	UC001 - Acessar Sistema
+•	UC002 - Manter Usuários
+•	UC003 - Manter Perfis
+•	UC004 - Manter Sistema
+•	UC005 - Manter Funcionalidade do Sistema
+•	UC006 - Registrar Auditoria
+•	UC007 - Pesquisar Auditoria
+•	UC008 - Consultar Usuários
+•	UC009 - Selecionar Sistema para Acesso
+
+ii.	Não funcionais
+
+•	O sistema deverá ser acessado pelo usuário via interface web.
+•	O UC006 e o UC008 devem ser disponibilizados para integração a partir de web services.
+•	O sistema deverá ser confiável.
+•	Deverão ser utilizados o SGDB MYSQL e a linguagem PHP como principais tecnologias.
+
+b.	Declaração de Escopo do Projeto
+
+i.	Funcionalidades atendidas
+
+As funcionalidades atendidas foram supracitadas no item 5.a.i deste documento na forma de lista de casos de uso.
+
+ii.	Tecnologia considerada
+
+É prevista a utilização das seguintes tecnologias durante o desenvolvimento deste projeto:
+
+•	Apache 2;
+•	Web Services;
+•	PHP 5;
+•	CSS;
+•	Java Script;
+•	MYSQL 5.
+
+c.	Riscos Iniciais
+
+•	Atrasar a entrega do produto (não finalizando o projeto no prazo planejado);
+•	Não atender algum dos requisitos do projeto;
+•	Não possui a infraestrutura necessária ou desejada para o trabalho;
+•	Enfrentar problemas de comunicação entre a equipe do projeto;
+•	Um ou mais recursos do projeto não possuírem disponibilidade de tempo para o desenvolvimento do projeto.
+
+6.	Plano de projeto
+
+a.	Organização do projeto
+
+i.	Papéis e Responsabilidades das Equipes do Projeto
+
+Devido à equipe ser reduzida e não representar as condições ideais de trabalho, ambos os participantes do projeto terão os seguintes papéis de Gerente de Projetos, Analista de Sistemas, Desenvolvedor, Analista de Testes, Tester; alterando quando necessário suas responsabilidades, sendo que:
+
+•	Um Gerente de Projetos deve preocupar-se em iniciar, monitorar e encerrar atividades que envolvam recursos humanos, tecnológicos e financeiros em um projeto, entre outros, integrando as diferentes disciplinas necessárias para planejá-los, executá-los e controlá-los, de forma com que os objetivos sejam alcançados.
+•	Um Analista de Sistemas deve projetar a arquitetura do sistema, desde a elicitação dos requisitos até o seu detalhamento.
+•	O Desenvolvedor deve construir a solução final com base em linguagens de programação e ferramentas auxiliares.
+•	O Analista de Testes deve planejar casos e/ou cenários de teste aplicáveis para garantir a qualidade do sistema.
+•	E finalmente, o Tester deve executar os testes planejados pelo Analista de Testes.
+
+ii.	Definição dos Recursos Materiais Necessários
+
+•	Será necessário um servidor virtual ou físico, compartilhado ou dedicado, que suporte a instalação da aplicação conforme as tecnologias mapeadas neste documento.
+
+b.	Plano de Gerenciamento do Projeto
+
+i.	Detalhamento do Escopo do produto do projeto
+
+O escopo do produto deste projeto restringe-se única e exclusivamente aos requisitos funcionais citados na sessão própria para este fim que consta deste documento.
+
+c.	Planejamento da Qualidade do projeto e do produto do projeto
+
+i.	Políticas de Qualidade
+
+O sistema deverá possuir qualidade aceitável, devendo seguir um ciclo de desenvolvimento similar ao do RUP (Rational Unified Process), com as seguintes etapas (minimamente executadas por conta de características já citadas neste plano de projeto): Iniciação, Elaboração, Construção e Transição. 
+
+ii.	Métricas da Qualidade
+
+Será utilizada como métrica de qualidade para o projeto a medida de defeitos encontrados por ponto de função contado.
+
+d.	Cronograma
+
+e.	Orçamento (considerando o escopo contemplado)
+
+Para efeitos representativos, a estimativa de custos do projeto será elaborada com base em um valor 80% menor que a média de mercado para o valor de venda da unidade de medida Ponto de Função, o qual é fixado neste documento em R$ 500,00/PF, como o valor base para tal cálculo. Assim, para cada ponto de função construído, temos um custo de R$ 100,00.
+
+Uma Contagem Estimada de Pontos de Função (método de Estimativa NESMA), criado com base no padrão do IFPUG (APF), suportará o cálculo citado, sendo representada abaixo:
+]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c81174cf-b8ff-40aa-a890-94e9802ec86a"/>
+          <PID name="Plano de Projeto" mc="Package" uid="299da99c-8688-4c6e-a956-0b4a7ccfeda2"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

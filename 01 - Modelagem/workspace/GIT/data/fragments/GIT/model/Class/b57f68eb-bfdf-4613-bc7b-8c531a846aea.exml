@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="cargo" version="3">
+  <DEPS>
+    <ID name="cargo" mc="Class" uid="b57f68eb-bfdf-4613-bc7b-8c531a846aea"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="cargo" mc="Class" uid="b57f68eb-bfdf-4613-bc7b-8c531a846aea"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="ecffd579-0189-40bb-a415-dcf5d6983abc"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[cargo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

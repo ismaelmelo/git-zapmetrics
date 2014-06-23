@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="BusinessDataType" version="3">
+  <DEPS>
+    <ID name="BusinessDataType" mc="Stereotype" uid="5f1fa40a-ab73-11df-9861-0014224f9977"/>
+    <EXTID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="BusinessDataType" mc="Stereotype" uid="5f1fa40a-ab73-11df-9861-0014224f9977"/>
+    <PID name="BusinessEntities" mc="Profile" uid="c13a53c2-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/profile/BusinessDataType32.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/profile/BusinessDataType16.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[business data type]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[DataType]]></ATT>
+      <ATT name="Name"><![CDATA[BusinessDataType]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

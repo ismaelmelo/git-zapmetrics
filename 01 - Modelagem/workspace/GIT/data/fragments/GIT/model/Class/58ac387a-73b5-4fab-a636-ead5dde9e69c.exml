@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contratoitem" version="3">
+  <DEPS>
+    <ID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+    <EXTID name="contratoitemvalor" mc="Class" uid="73940992-9679-4f41-88a1-5a970b049240"/>
+    <EXTID name="os" mc="Class" uid="0211c106-8eaa-4c50-98b7-3e92a2abd59b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="6ab2908b-f5c8-4f18-9ed6-d4166856a50e"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contratoitem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedNaryEnd">
+        <OBJECT>
+          <ID name="" mc="NaryAssociationEnd" uid="c5fa8c4d-9aa6-4291-babf-e9ed21e7690f"/>
+          <PID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+          <ATTRIBUTES>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="NaryAssociation">
+              <REFOBJ>
+                <ID name="" mc="NaryAssociation" uid="4eba1f78-c26a-47b6-b274-33f0827cc510"/>
+                <PID name="os" mc="Class" uid="0211c106-8eaa-4c50-98b7-3e92a2abd59b"/>
+              </REFOBJ>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedEnd">
+        <OBJECT>
+          <ID name="contratoitemvalor" mc="AssociationEnd" uid="67b86d07-f08e-4df7-8cc3-af4da98d5889"/>
+          <PID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+          <ATTRIBUTES>
+            <ATT name="Aggregation">KindIsComposition</ATT>
+            <ATT name="IsChangeable">true</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[*]]></ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[contratoitemvalor]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="contratoitemvalor" mc="Class" uid="73940992-9679-4f41-88a1-5a970b049240"/>
+            </LINK>
+            <COMP relation="Opposite">
+              <OBJECT>
+                <ID name="" mc="AssociationEnd" uid="83a3cba4-72fe-4fb9-bff1-6f9be2c2f66c"/>
+                <PID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+                <ATTRIBUTES>
+                  <ATT name="Aggregation">KindIsAssociation</ATT>
+                  <ATT name="IsChangeable">true</ATT>
+                  <ATT name="Changeable">ReadWrite</ATT>
+                  <ATT name="IsDerived">false</ATT>
+                  <ATT name="IsOrdered">false</ATT>
+                  <ATT name="IsUnique">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Visibility">Public</ATT>
+                  <ATT name="IsClass">false</ATT>
+                  <ATT name="IsAbstract">false</ATT>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="Opposite">
+                    <COMPID name="contratoitemvalor" mc="AssociationEnd" uid="67b86d07-f08e-4df7-8cc3-af4da98d5889"/>
+                  </COMP>
+                  <COMP relation="Association">
+                    <OBJECT>
+                      <ID name="" mc="Association" uid="5c9e78c4-aded-41b4-b218-d66583379502"/>
+                      <PID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+                      <ATTRIBUTES>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES></DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+            <COMP relation="Association">
+              <OBJECT>
+                <ID name="" mc="Association" uid="5c9e78c4-aded-41b4-b218-d66583379502"/>
+                <PID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

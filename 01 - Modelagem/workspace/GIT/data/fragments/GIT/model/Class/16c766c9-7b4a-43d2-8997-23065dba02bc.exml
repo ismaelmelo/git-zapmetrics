@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ata" version="3">
+  <DEPS>
+    <ID name="ata" mc="Class" uid="16c766c9-7b4a-43d2-8997-23065dba02bc"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ata" mc="Class" uid="16c766c9-7b4a-43d2-8997-23065dba02bc"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ata]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

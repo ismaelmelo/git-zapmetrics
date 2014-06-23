@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafAnalystSatisfy" version="3">
+  <DEPS>
+    <ID name="TogafAnalystSatisfy" mc="Stereotype" uid="dbf80343-e190-4a08-a11a-9efe61ea4b8f"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafAnalystSatisfy" mc="Stereotype" uid="dbf80343-e190-4a08-a11a-9efe61ea4b8f"/>
+    <PID name="BusinessEntities" mc="Profile" uid="c13a53c2-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/profile/Satisfy16.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/profile/Satisfy16.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Satisfy]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Dependency]]></ATT>
+      <ATT name="Name"><![CDATA[TogafAnalystSatisfy]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,107 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafElement" version="3">
+  <DEPS>
+    <ID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+    <PID name="Structure" mc="Profile" uid="bcbac7ba-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[supports]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[ModelElement]]></ATT>
+      <ATT name="Name"><![CDATA[TogafElement]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="TogafElement_reference" mc="TagType" uid="fe3d304a-ab94-11df-9861-0014224f9977"/>
+          <PID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[reference]]></ATT>
+            <ATT name="Name"><![CDATA[TogafElement_reference]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafElement_name" mc="TagType" uid="045bb2ee-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[name]]></ATT>
+            <ATT name="Name"><![CDATA[TogafElement_name]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafElement_description" mc="TagType" uid="04a33aa6-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[description]]></ATT>
+            <ATT name="Name"><![CDATA[TogafElement_description]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafElement_category" mc="TagType" uid="04da11a2-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[category]]></ATT>
+            <ATT name="Name"><![CDATA[TogafElement_category]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafElement_source" mc="TagType" uid="06421a9e-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[source]]></ATT>
+            <ATT name="Name"><![CDATA[TogafElement_source]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafElement_owner" mc="TagType" uid="06873ff2-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[owner]]></ATT>
+            <ATT name="Name"><![CDATA[TogafElement_owner]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

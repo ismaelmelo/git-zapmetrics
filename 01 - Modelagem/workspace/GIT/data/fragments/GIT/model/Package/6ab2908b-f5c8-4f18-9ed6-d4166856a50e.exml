@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="6ab2908b-f5c8-4f18-9ed6-d4166856a50e"/>
+    <COMPID name="DCL - Outsourcing" mc="ClassDiagram" uid="52d2c987-32fb-4662-bb89-93fa7884c3ce"/>
+    <COMPID name="contrato" mc="Class" uid="c9fded89-8b42-46c8-b6c3-79a68ee46f44"/>
+    <COMPID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+    <COMPID name="contratoitemvalor" mc="Class" uid="73940992-9679-4f41-88a1-5a970b049240"/>
+    <COMPID name="demanda" mc="Class" uid="4a273184-48cd-4b30-9f46-f046f67ada00"/>
+    <COMPID name="fatura" mc="Class" uid="c2f86025-cc59-479b-900d-4aef1932bf0d"/>
+    <COMPID name="fornecedor" mc="Class" uid="115cc1bc-a5ea-45ef-9809-170c9dd9049f"/>
+    <COMPID name="oc" mc="Class" uid="cc8349f8-407d-4a57-b1e3-bb375bb65fa2"/>
+    <COMPID name="ocitem" mc="Class" uid="04ef033e-b49c-4158-8145-baee79449712"/>
+    <COMPID name="os" mc="Class" uid="0211c106-8eaa-4c50-98b7-3e92a2abd59b"/>
+    <COMPID name="termo" mc="Class" uid="a5e6f90d-1d35-4e8c-b180-ffc3e293db32"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="6ab2908b-f5c8-4f18-9ed6-d4166856a50e"/>
+    <PID name="B04 - Outsourcing" mc="Package" uid="fd7b8e94-b4d4-4f85-9f90-51bebc49256e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="demanda" mc="Class" uid="4a273184-48cd-4b30-9f46-f046f67ada00"/>
+        <COMPID name="oc" mc="Class" uid="cc8349f8-407d-4a57-b1e3-bb375bb65fa2"/>
+        <COMPID name="fornecedor" mc="Class" uid="115cc1bc-a5ea-45ef-9809-170c9dd9049f"/>
+        <COMPID name="contrato" mc="Class" uid="c9fded89-8b42-46c8-b6c3-79a68ee46f44"/>
+        <COMPID name="os" mc="Class" uid="0211c106-8eaa-4c50-98b7-3e92a2abd59b"/>
+        <COMPID name="termo" mc="Class" uid="a5e6f90d-1d35-4e8c-b180-ffc3e293db32"/>
+        <COMPID name="fatura" mc="Class" uid="c2f86025-cc59-479b-900d-4aef1932bf0d"/>
+        <COMPID name="ocitem" mc="Class" uid="04ef033e-b49c-4158-8145-baee79449712"/>
+        <COMPID name="contratoitem" mc="Class" uid="58ac387a-73b5-4fab-a636-ead5dde9e69c"/>
+        <COMPID name="contratoitemvalor" mc="Class" uid="73940992-9679-4f41-88a1-5a970b049240"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - Outsourcing" mc="ClassDiagram" uid="52d2c987-32fb-4662-bb89-93fa7884c3ce"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

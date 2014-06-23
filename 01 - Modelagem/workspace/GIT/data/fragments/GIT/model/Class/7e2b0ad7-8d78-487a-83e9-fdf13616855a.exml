@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="itembaseconhec" version="3">
+  <DEPS>
+    <ID name="itembaseconhec" mc="Class" uid="7e2b0ad7-8d78-487a-83e9-fdf13616855a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="itembaseconhec" mc="Class" uid="7e2b0ad7-8d78-487a-83e9-fdf13616855a"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="0d13dd1d-fe29-46b8-9192-39db6cb7f031"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[itembaseconhec]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

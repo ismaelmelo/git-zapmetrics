@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafProcess" version="3">
+  <DEPS>
+    <ID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+    <EXTID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+    <PID name="Business Architecture" mc="Profile" uid="c4b60052-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/profile/TogafProcess32.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/profile/TogafProcess16.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[business process]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[BpmnBehavior]]></ATT>
+      <ATT name="Name"><![CDATA[TogafProcess]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="TogafProcess_criticality" mc="TagType" uid="ef52c9b5-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[criticality]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_criticality]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafProcess_isAutomated" mc="TagType" uid="f046c6a5-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[0]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[isAutomated]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_isAutomated]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafProcess_volumetrics" mc="TagType" uid="f0846be5-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[volumetrics]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_volumetrics]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafProcess_duration" mc="TagType" uid="f0aa4365-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[duration]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_duration]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafProcess_KPI" mc="TagType" uid="f0c8c7e5-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[kpi]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_KPI]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafProcess_used_resources" mc="TagType" uid="f0f11065-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[used_resources]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_used_resources]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="TogafProcess_kind" mc="TagType" uid="f11205e5-e515-11e0-bbbe-bc305ba4815c"/>
+          <PID name="TogafProcess" mc="Stereotype" uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[kind]]></ATT>
+            <ATT name="Name"><![CDATA[TogafProcess_kind]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

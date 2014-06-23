@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="id_BindableInstance" version="3">
+  <DEPS>
+    <ID name="id_BindableInstance" mc="Stereotype" uid="a11eda99-b4d5-11de-b51d-001302895b2b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="id_BindableInstance" mc="Stereotype" uid="a11eda99-b4d5-11de-b51d-001302895b2b"/>
+    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[SoaMLDesigner/res/bmp/id.png]]></ATT>
+      <ATT name="Icon"><![CDATA[SoaMLDesigner/res/bmp/id.png]]></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="LabelKey"><![CDATA[id]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[BindableInstance]]></ATT>
+      <ATT name="Name"><![CDATA[id_BindableInstance]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

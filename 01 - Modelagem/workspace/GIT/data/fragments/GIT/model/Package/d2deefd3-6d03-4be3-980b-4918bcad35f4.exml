@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Arquitetura Física" version="3">
+  <DEPS>
+    <ID name="Arquitetura Física" mc="Package" uid="d2deefd3-6d03-4be3-980b-4918bcad35f4"/>
+    <FOREIGNID name="LogicalDataModel" mc="Stereotype" uid="293c92c2-ab6d-11df-9861-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Arquitetura Física" mc="Package" uid="d2deefd3-6d03-4be3-980b-4918bcad35f4"/>
+    <PID name="Arquitetura" mc="Package" uid="6b18b848-4286-4299-8324-6da188cd31ad"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Arquitetura Física]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="LogicalDataModel" mc="Stereotype" uid="293c92c2-ab6d-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="e4b54ce3-cb82-4e2b-a56b-63996c7f840e"/>
+          <PID name="Arquitetura Física" mc="Package" uid="d2deefd3-6d03-4be3-980b-4918bcad35f4"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[The Data Architecture is in particular modeled under the "Data Architecture" domain, where persistent data are defined. They can be derived from the Business Entities defined under the Business Layer/Business Entities domain.]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,247 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC103 - Manter Solicitações de Métricas" version="3">
+  <DEPS>
+    <ID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+    <EXTID name="UC107 - Manter Ocorrências da Solicitação" mc="UseCase" uid="199e590f-e13a-43dd-b799-79e904bc809e"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC103 - Manter Solicitações de Métricas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="56915d77-e299-4edf-a6a6-99e865c8c62b"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC107 - Manter Ocorrências da Solicitação" mc="UseCase" uid="199e590f-e13a-43dd-b799-79e904bc809e"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="16bd63d0-12f2-4da3-bff3-780c8da35703"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Solicitações de Métricas
+
+FP.1 - O usuário solicita pesquisar Solicitações de Métricas (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Solicitação de Métricas
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir uma Solicitação de Métricas.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Solicitação de Métricas
+
+FA2.1 - No passo FP.4, o usuário solicita copiar uma Solicitação de Métricas.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Solicitação de Métricas
+
+FA3.1 - No passo FP.4, o usuário solicita alterar uma Solicitação de Métricas.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Solicitação de Métricas
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar uma Solicitação de Métricas.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Solicitação de Métricas
+
+FA5.1 - No passo FP.4, o usuário solicita excluir uma Solicitação de Métricas.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+SOLICITACAO
+- nu_solMetricas
+- nu_tpSolicitacao
+- nu_projeto
+- no_atividadeMaeRedmine
+- ic_stSolicitacao
+- dt_stSolicitacao
+- ds_documentacaoAux
+- ds_imapactoDb
+- ds_observacoes
+- nu_usuarioIncluiu
+- dh_inclusao
+- nu_usuarioAlterou
+- dh_alteracao
+- ic_bloqueio
+- qt_pfTotal
+- vr_pfContForn
+- nu_tpMetrica
+- ds_observacoesContForn
+- im_anexosContForn
+- nu_contagemAnt
+- ds_observaocoesContAnt
+- im_anexosContAnt
+
+OCORRENCIAS DA SOLICITACAO
+- nu_solicitacao
+- nu_ocorrencia
+- ic_tpOcorrencia
+- ic_exibirNoLaudo
+- ds_observacao
+- nu_usuarioInc
+- dh_inclusao
+
+UCS DA SOLICITACAO
+- nu_solicitacao
+- nu_uc
+- ic_impacto
+- nu_sistema]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="24df191e-be44-466d-b33e-75bcf0a97ef5"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="9682e2b8-40c8-4218-bfaf-8101255dd1b1"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="2a471e67-30d2-41c0-96ae-17cb1c9cda0b"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c0148ad3-a54d-4d25-8225-5b395a4edd98"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="ed8d2a0d-e30e-4fab-81ab-31eff3829858"/>
+          <PID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

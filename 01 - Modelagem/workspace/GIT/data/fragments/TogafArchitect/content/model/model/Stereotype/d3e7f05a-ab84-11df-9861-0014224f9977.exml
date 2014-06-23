@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafConsumes" version="3">
+  <DEPS>
+    <ID name="TogafConsumes" mc="Stereotype" uid="d3e7f05a-ab84-11df-9861-0014224f9977"/>
+    <EXTID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafConsumes" mc="Stereotype" uid="d3e7f05a-ab84-11df-9861-0014224f9977"/>
+    <PID name="Business Architecture" mc="Profile" uid="c4b60052-ab6c-11df-9861-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/profile/TogafConsumes32.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/profile/TogafConsumes16.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[consumes]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Dependency]]></ATT>
+      <ATT name="Name"><![CDATA[TogafConsumes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="TogafElement" mc="Stereotype" uid="fd8b243a-ab70-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="TogafConsumes_habilitation" mc="TagType" uid="a73cbdf5-ab95-11df-9861-0014224f9977"/>
+          <PID name="TogafConsumes" mc="Stereotype" uid="d3e7f05a-ab84-11df-9861-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[*]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"><![CDATA[habilitation]]></ATT>
+            <ATT name="Name"><![CDATA[TogafConsumes_habilitation]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

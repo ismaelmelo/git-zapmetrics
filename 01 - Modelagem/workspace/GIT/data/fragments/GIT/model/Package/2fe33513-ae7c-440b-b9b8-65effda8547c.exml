@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="2fe33513-ae7c-440b-b9b8-65effda8547c"/>
+    <COMPID name="DCL - ADM Acessos" mc="ClassDiagram" uid="c378a809-0121-4834-9391-23dfd6647c8b"/>
+    <COMPID name="auditoria" mc="Class" uid="38b3fd1e-d333-4abb-b960-bc0859521f3f"/>
+    <COMPID name="logexterno" mc="Class" uid="fbeb0b2f-9cd3-426c-979d-f60d956efa41"/>
+    <COMPID name="parintegracao" mc="Class" uid="cdc0897e-7805-4dd3-8bfe-276170e72ef4"/>
+    <COMPID name="perfil" mc="Class" uid="a7cbfb16-1428-4dfa-b13d-d38d4cc8fc28"/>
+    <COMPID name="processamento" mc="Class" uid="7ac2ae4d-0813-421d-8fde-7cbf59dec221"/>
+    <COMPID name="projetoagrup" mc="Class" uid="0d4a5ba6-9285-4578-ba56-eb9b6f599905"/>
+    <COMPID name="usuario" mc="Class" uid="6e475157-9cfa-4ea6-a259-53e83a27551f"/>
+    <COMPID name="widget_perfil" mc="Class" uid="a9820d66-3c16-4cc6-96d4-58bc0fcb643d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="2fe33513-ae7c-440b-b9b8-65effda8547c"/>
+    <PID name="A03 - Acessos" mc="Package" uid="2c4466c6-421c-462a-94e2-576a44b5b03b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="usuario" mc="Class" uid="6e475157-9cfa-4ea6-a259-53e83a27551f"/>
+        <COMPID name="perfil" mc="Class" uid="a7cbfb16-1428-4dfa-b13d-d38d4cc8fc28"/>
+        <COMPID name="widget_perfil" mc="Class" uid="a9820d66-3c16-4cc6-96d4-58bc0fcb643d"/>
+        <COMPID name="parintegracao" mc="Class" uid="cdc0897e-7805-4dd3-8bfe-276170e72ef4"/>
+        <COMPID name="processamento" mc="Class" uid="7ac2ae4d-0813-421d-8fde-7cbf59dec221"/>
+        <COMPID name="projetoagrup" mc="Class" uid="0d4a5ba6-9285-4578-ba56-eb9b6f599905"/>
+        <COMPID name="auditoria" mc="Class" uid="38b3fd1e-d333-4abb-b960-bc0859521f3f"/>
+        <COMPID name="logexterno" mc="Class" uid="fbeb0b2f-9cd3-426c-979d-f60d956efa41"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - ADM Acessos" mc="ClassDiagram" uid="c378a809-0121-4834-9391-23dfd6647c8b"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="715b7690-2dad-40b6-b748-964644fbaa1d"/>
+    <COMPID name="DUC - Comum" mc="UseCaseDiagram" uid="dcae0f2e-9f09-46eb-a824-c74e7e5b9143"/>
+    <COMPID name="Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+    <COMPID name="Sair do Sistema" mc="UseCase" uid="e2b1c551-1c2c-49a7-87c1-664cc55de421"/>
+    <COMPID name="Trocar Senha" mc="UseCase" uid="a32a6493-5f36-4805-b533-e8d7bc17966b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="715b7690-2dad-40b6-b748-964644fbaa1d"/>
+    <PID name="B09 - COMUM" mc="Package" uid="4c995660-ba8a-41b8-854e-0e81bc260271"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Trocar Senha" mc="UseCase" uid="a32a6493-5f36-4805-b533-e8d7bc17966b"/>
+        <COMPID name="Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+        <COMPID name="Sair do Sistema" mc="UseCase" uid="e2b1c551-1c2c-49a7-87c1-664cc55de421"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Comum" mc="UseCaseDiagram" uid="dcae0f2e-9f09-46eb-a824-c74e7e5b9143"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CategoryValue_TaggedValue" version="3">
+  <DEPS>
+    <ID name="CategoryValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17ae-0000-000000000000"/>
+    <EXTID name="FreeFormValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17a4-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="CategoryValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17ae-0000-000000000000"/>
+    <PID name="Categorization" mc="Profile" uid="01ec25d4-0000-1779-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="LabelKey"><![CDATA[CategoryValue]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[TaggedValue]]></ATT>
+      <ATT name="Name"><![CDATA[CategoryValue_TaggedValue]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Parent">
+        <ID name="FreeFormValue_TaggedValue" mc="Stereotype" uid="01ec25d4-0000-17a4-0000-000000000000"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Especificações Suplementares" version="3">
+  <DEPS>
+    <ID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+    <COMPID name="Atores" mc="Package" uid="5be80729-c450-4667-84de-f0af20b59a4d"/>
+    <COMPID name="Funcionalidades Genéricas" mc="Package" uid="40869b18-f8b8-4741-9729-c5f12c63365c"/>
+    <COMPID name="Regras de Domínio" mc="Package" uid="8bf05f16-4f6c-489e-8280-663a8699c63e"/>
+    <COMPID name="Requisitos de Qualidade" mc="Package" uid="912bb0a5-35fd-4fbd-8287-c226e1438e3c"/>
+    <FOREIGNID name="BusinessArchitecture" mc="Stereotype" uid="56eadada-ab6d-11df-9861-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+    <PID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Especificações Suplementares]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Atores" mc="Package" uid="5be80729-c450-4667-84de-f0af20b59a4d"/>
+        <COMPID name="Funcionalidades Genéricas" mc="Package" uid="40869b18-f8b8-4741-9729-c5f12c63365c"/>
+        <COMPID name="Requisitos de Qualidade" mc="Package" uid="912bb0a5-35fd-4fbd-8287-c226e1438e3c"/>
+        <COMPID name="Regras de Domínio" mc="Package" uid="8bf05f16-4f6c-489e-8280-663a8699c63e"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="BusinessArchitecture" mc="Stereotype" uid="56eadada-ab6d-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="cdfdd629-4bf4-493a-9198-557b0380e7c8"/>
+          <PID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[In TOGAF, the Business Architecture defines the business strategy, governance, organization, and key business processes.
+All these elements are modeled under this domain, with predefined subdomains.]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

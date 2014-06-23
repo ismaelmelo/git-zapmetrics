@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+    <COMPID name="DCL - Grupos e Comitês" mc="ClassDiagram" uid="792a2777-f031-4981-a9f6-00f39913a795"/>
+    <COMPID name="ata" mc="Class" uid="16c766c9-7b4a-43d2-8997-23065dba02bc"/>
+    <COMPID name="gpcomite" mc="Class" uid="734eb45e-e8c1-42f6-bb4f-31d3351c76a7"/>
+    <COMPID name="gpcomite_membro" mc="Class" uid="a0140053-15da-45a3-aa0b-98f89cffedac"/>
+    <COMPID name="resolucao" mc="Class" uid="9e8c1878-b68d-44bd-a3de-66d25e71cd3f"/>
+    <COMPID name="reuniao" mc="Class" uid="2dda2b9a-d647-4a45-b2bd-90de6c1c3f03"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+    <PID name="B03 - Grupos e Comitês" mc="Package" uid="04eeef6c-dda0-4025-b4eb-c2797c86b2b4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="gpcomite" mc="Class" uid="734eb45e-e8c1-42f6-bb4f-31d3351c76a7"/>
+        <COMPID name="gpcomite_membro" mc="Class" uid="a0140053-15da-45a3-aa0b-98f89cffedac"/>
+        <COMPID name="reuniao" mc="Class" uid="2dda2b9a-d647-4a45-b2bd-90de6c1c3f03"/>
+        <COMPID name="ata" mc="Class" uid="16c766c9-7b4a-43d2-8997-23065dba02bc"/>
+        <COMPID name="resolucao" mc="Class" uid="9e8c1878-b68d-44bd-a3de-66d25e71cd3f"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - Grupos e Comitês" mc="ClassDiagram" uid="792a2777-f031-4981-a9f6-00f39913a795"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

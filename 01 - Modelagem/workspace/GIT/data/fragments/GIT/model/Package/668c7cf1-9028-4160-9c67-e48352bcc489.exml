@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+    <COMPID name="DCL - Métricas" mc="ClassDiagram" uid="3dcbadb5-1b67-48a8-9052-14964b59cd20"/>
+    <COMPID name="contagempf" mc="Class" uid="196a6771-0b85-4e81-9d27-f736e8582fc8"/>
+    <COMPID name="estimativa" mc="Class" uid="62de01cb-6968-4c2f-9e48-bb235c797b60"/>
+    <COMPID name="laudo" mc="Class" uid="edf44f12-9274-4366-a692-d3874a387c2c"/>
+    <COMPID name="solmetricas" mc="Class" uid="a1b9b91c-0882-4115-a0d9-aeb6185d6772"/>
+    <COMPID name="solmetricasocorrencia" mc="Class" uid="2a8ce8d3-64f4-45d9-9443-463fedeadbed"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+    <PID name="B08 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="solmetricas" mc="Class" uid="a1b9b91c-0882-4115-a0d9-aeb6185d6772"/>
+        <COMPID name="contagempf" mc="Class" uid="196a6771-0b85-4e81-9d27-f736e8582fc8"/>
+        <COMPID name="estimativa" mc="Class" uid="62de01cb-6968-4c2f-9e48-bb235c797b60"/>
+        <COMPID name="laudo" mc="Class" uid="edf44f12-9274-4366-a692-d3874a387c2c"/>
+        <COMPID name="solmetricasocorrencia" mc="Class" uid="2a8ce8d3-64f4-45d9-9443-463fedeadbed"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - Métricas" mc="ClassDiagram" uid="3dcbadb5-1b67-48a8-9052-14964b59cd20"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

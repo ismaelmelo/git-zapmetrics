@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="77c94c9b-1f9c-47d5-a2a0-acb696024acf"/>
+    <COMPID name="DCL - Projetos" mc="ClassDiagram" uid="fa7a9e9e-bfbf-482a-8ebf-1934a0412913"/>
+    <COMPID name="projeto" mc="Class" uid="95cab427-40df-4df7-a0bb-23050f0257d4"/>
+    <COMPID name="prospecto" mc="Class" uid="37d8c586-dba7-4d45-be9c-df682d76b0a7"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="77c94c9b-1f9c-47d5-a2a0-acb696024acf"/>
+    <PID name="B06 - Projetos" mc="Package" uid="9a70ec14-478a-4641-a46f-8346f96dd338"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="prospecto" mc="Class" uid="37d8c586-dba7-4d45-be9c-df682d76b0a7"/>
+        <COMPID name="projeto" mc="Class" uid="95cab427-40df-4df7-a0bb-23050f0257d4"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - Projetos" mc="ClassDiagram" uid="fa7a9e9e-bfbf-482a-8ebf-1934a0412913"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="0199c693-901d-4c7a-b4ab-df5e026e9010"/>
+    <COMPID name="DUC - Pessoas" mc="UseCaseDiagram" uid="64e7c422-d908-41a6-9de4-64880e86ed56"/>
+    <COMPID name="Manter Cargos" mc="UseCase" uid="d8b31ce6-e350-438d-825f-03dc23cb8b9b"/>
+    <COMPID name="Manter Papéis" mc="UseCase" uid="00ecef2f-7825-458e-ba72-37f498022b63"/>
+    <COMPID name="Manter Pessoas" mc="UseCase" uid="e1384b2a-8b97-4eee-82b0-1d91613797e8"/>
+    <COMPID name="Relatório de Pessoas por Cargo" mc="UseCase" uid="2f07fb16-cf44-4a75-b24e-28c637b828fc"/>
+    <COMPID name="Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="0199c693-901d-4c7a-b4ab-df5e026e9010"/>
+    <PID name="B05 - Pessoas" mc="Package" uid="f4ecdeb4-186a-4156-a8de-80e8caed82c1"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Pessoas" mc="UseCase" uid="e1384b2a-8b97-4eee-82b0-1d91613797e8"/>
+        <COMPID name="Manter Cargos" mc="UseCase" uid="d8b31ce6-e350-438d-825f-03dc23cb8b9b"/>
+        <COMPID name="Manter Papéis" mc="UseCase" uid="00ecef2f-7825-458e-ba72-37f498022b63"/>
+        <COMPID name="Relatório de Pessoas por Cargo" mc="UseCase" uid="2f07fb16-cf44-4a75-b24e-28c637b828fc"/>
+        <COMPID name="Relatório de Pessoas por Papel" mc="UseCase" uid="03648fcf-1fad-4714-bce8-51e2f6f97b6d"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Pessoas" mc="UseCaseDiagram" uid="64e7c422-d908-41a6-9de4-64880e86ed56"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

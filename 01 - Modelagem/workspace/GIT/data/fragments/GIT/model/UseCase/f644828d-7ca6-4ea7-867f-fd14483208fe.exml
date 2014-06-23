@@ -1,0 +1,256 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC104 - Manter Contagens de PF" version="3">
+  <DEPS>
+    <ID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+    <EXTID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="extend" mc="Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC104 - Manter Contagens de PF]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="88cd8184-21b6-4c85-bca2-f444afc149d3"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC103 - Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="d680c89d-f27a-4cd1-80e6-f4c2ba41250b"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Contagens de PF
+
+FP.1 - O usuário solicita pesquisar Contagens de PF (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Contagem de PF
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir uma Contagem de PF.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Contagens de PF
+
+FA2.1 - No passo FP.4, o usuário solicita copiar uma Contagens de PF.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Contagens de PF
+
+FA3.1 - No passo FP.4, o usuário solicita alterar uma Contagens de PF.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Contagens de PF
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar uma Contagens de PF.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Contagens de PF
+
+FA5.1 - No passo FP.4, o usuário solicita excluir uma Contagens de PF.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+CONTAGEM DE PF
+- nu_contagem
+- nu_solMetricas
+- nu_proposito
+- nu_tpMetrica
+- nu_tpContagem
+- nu_sistema
+- nu_ambiente
+- nu_metodologia
+- nu_roteiro
+- nu_faseMedida
+- nu_usuarioLogado
+- dh_inicio
+- ic_stContagem
+- vr_pfFaturamento
+- ar_fasesRoteiro
+- pc_varFasesRoteiro
+- ic_bloqueio
+
+AGRUPADOR DE CONTAGEM DE PF
+- nu_contagem
+- nu_agrupador
+- no_agrupador
+
+FUNCAO DE CONTAGEM DE PF
+- nu_funcao
+- nu_agrupador
+- nu_contagem
+- no_funcao
+- qt_alr
+- ds_alr
+- qt_der
+- ds_der
+- ic_complexApf
+- vr_fatorReducao
+- vr_contribuicao
+- ic_analalogia
+- pc_varFasesRoteiro
+- ds_observacoes
+- nu_usuarioLogado
+- dh_inclusao
+- nu_tpElemento
+- nu_tpManutencao
+- vr_qtPf
+- nu_uc
+
+]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="15608b4f-bfb4-40fc-a9e9-bd8f25281c4b"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="960860b7-8ec2-41fd-b4d2-f6a94a1d1d8c"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="21b3ba83-d7e8-4901-8e69-0ccb196da432"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="821d2836-26bd-4c43-a53d-ae4c8b4555e2"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="bb73f1ec-e289-4b78-8370-84fbfab9e866"/>
+          <PID name="UC104 - Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

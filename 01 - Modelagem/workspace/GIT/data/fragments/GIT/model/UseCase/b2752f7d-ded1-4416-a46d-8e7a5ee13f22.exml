@@ -1,0 +1,220 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC054 - Processar Atualização" version="3">
+  <DEPS>
+    <ID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="f0707904-433d-4349-b471-a06466e634e7"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC054 - Processar Atualização]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="89577580-213b-458d-80e3-b147c28a3989"/>
+          <PID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Processar Atualização Redmine
+
+FP.1 - O usuário solicita processar uma atualização da base Redmine (FA1).
+FP.2 - O sistema sincroniza as informações de Campos Customizados (INF-01).
+- O sistema exclui todas as informações de Campos Customizados do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Campos Customizados com base no Cadastro de Campos Customizados do sistema Redmine.
+FP.3 - O sistema sincroniza as informações de Campos Customizados de Projetos (INF-02).
+- O sistema exclui todas as informações de Campos Customizados de Projetos do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Campos Customizados com base no Cadastro de Campos Customizados do sistema Redmine.
+FP.4 - O sistema sincroniza as informações de Campos Customizados de Tipos de Tarefas (INF-03).
+- O sistema exclui todas as informações de Campos Customizados de Tipos de Tarefas do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Campos Customizados de Tipos de Tarefa com base no Cadastro de Campos Customizados de Tipos de Tarefa do sistema Redmine.
+FP.5 - O sistema sincroniza as informações de Valores de Campos Customizados (INF-04).
+- O sistema exclui todas as informações de Valores de Campos Customizados do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Campos Customizados com base no Cadastro de Valores de Campos Customizados do sistema Redmine.
+FP.6 - O sistema sincroniza as informações de Enumerações (INF-05).
+- O sistema exclui todas as informações de Enumerações do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Enumerações com base no Cadastro de Enumerações do sistema Redmine.
+FP.7 - O sistema sincroniza as informações de Grupos de Usuários (INF-06).
+- O sistema exclui todas as informações de Grupos de Usuários do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Grupos de Usuários com base no Cadastro de Grupo de Usuários do sistema Redmine.
+FP.8 - O sistema sincroniza as informações de Categorias de Tarefas (INF-07).
+- O sistema exclui todas as informações de Categorias de Tarefas do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Categorias de Tarefas com base no Cadastro de Categorias de Tarefas do sistema Redmine.
+FP.9 - O sistema sincroniza as informações de Relações de Tarefas (INF-08).
+- O sistema exclui todas as informações de Relações de Tarefas do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Campos Customizados com base no Cadastro de Relações de Tarefas do sistema Redmine.
+FP.10 - O sistema sincroniza as informações de Situações de Tarefas (INF-09).
+- O sistema exclui todas as informações de Situações de Tarefas do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Situações de Tarefas com base no Cadastro de Situações de Tarefas do sistema Redmine.
+FP.11 - O sistema sincroniza as informações de Tarefas (INF-10).
+- O sistema exclui todas as informações de Tarefas do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Tarefas com base no Cadastro de Tarefas do sistema Redmine.
+FP.12 - O sistema sincroniza as informações de Detalhes do Histórico (INF-11).
+- O sistema exclui todas as informações de Detalhes do Histórico do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Detalhes do Histórico com base no Cadastro Detalhes do Históricodo sistema Redmine.
+FP.13 - O sistema sincroniza as informações de Histórico (INF-12).
+- O sistema exclui todas as informações de Histórico do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Histórico com base no Cadastro de Histórico do sistema Redmine.
+FP.14 - O sistema sincroniza as informações de Papéis (INF-13).
+- O sistema exclui todas as informações de Papéis do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Papéis com base no Cadastro de Papéis do sistema Redmine.
+FP.15 - O sistema sincroniza as informações de Membros (INF-14).
+- O sistema exclui todas as informações de Membros do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Membros com base no Cadastro de Membros do sistema Redmine.
+FP.16 - O sistema sincroniza as informações de Projetos (INF-15).
+- O sistema exclui todas as informações de Projetos do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Projetos com base no Cadastro de Projetos do sistema Redmine.
+FP.17 - O sistema sincroniza as informações de Tipos de Tarefa (INF-16).
+- O sistema exclui todas as informações de Tipos de Tarefa do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Tipos de Tarefa com base no Cadastro de Tipos de Tarefa do sistema Redmine.
+FP.18 - O sistema sincroniza as informações de Papéis de Membros (INF-17).
+- O sistema exclui todas as informações de Papéis de Membros do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Papéis de Membros com base no Cadastro de Papéis de Membros do sistema Redmine.
+FP.19 - O sistema sincroniza as informações de Lancamentos (INF-18).
+- O sistema exclui todas as informações de Lancamentos do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Lancamentos com base no Cadastro de Lancamentos do sistema Redmine.
+FP.20 - O sistema sincroniza as informações de Preferências do Usuário (INF-19).
+- O sistema exclui todas as informações de Preferências do Usuário do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Preferências do Usuário com base no Cadastro de Preferências do Usuário do sistema Redmine.
+FP.21 - O sistema sincroniza as informações de Usuários (INF-20).
+- O sistema exclui todas as informações de Usuários do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Usuários com base no Cadastro de Usuários do sistema Redmine.
+FP.22 - O sistema sincroniza as informações de Versões (INF-21).
+- O sistema exclui todas as informações de Versões do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Versões com base no Cadastro de Versões do sistema Redmine.
+FP.23 - O sistema sincroniza as informações de Acompanhantes (INF-22).
+- O sistema exclui todas as informações de Acompanhantes do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Acompanhantes com base no Cadastro de Acompanhantes do sistema Redmine.
+FP.24 - O sistema sincroniza as informações de Fluxos de Trabalho (INF-23).
+- O sistema exclui todas as informações de Fluxos de Trabalho do cadastro mantido no sistema GIT.
+- O sistema inclui as informações de Fluxos de Trabalho com base no Cadastro de Fluxos de Trabalho do sistema Redmine.
+FP.25 - O sistema registra as informações do processamento no cadastro de Processamento (INF-24).
+FP.26 - O sistema encerra o caso de uso.
+
+Informações Complementares
+
+INF-01 - Informações Excluídas/ Incluídas de Campos Customizados
+INF-02 - Informações Excluídas/ Incluídas de Campos Customizados de Projetos
+INF-03 - Informações Excluídas/ Incluídas de Campos Customizados de Tipos de Tarefas
+INF-04 - Informações Excluídas/ Incluídas de Valores de Campos Customizados
+INF-05 - Informações Excluídas/ Incluídas de Enumerações
+INF-06 - Informações Excluídas/ Incluídas de Grupos de Usuários
+INF-07 - Informações Excluídas/ Incluídas de Categorias de Tarefas
+INF-08 - Informações Excluídas/ Incluídas de Relações de Tarefas
+INF-09 - Informações Excluídas/ Incluídas de Situações de Tarefas
+INF-10 - Informações Excluídas/ Incluídas de Tarefas
+INF-11 - Informações Excluídas/ Incluídas de Detalhes do Histórico
+INF-12 - Informações Excluídas/ Incluídas de Histórico
+INF-13 - Informações Excluídas/ Incluídas de Papéis
+INF-14 - Informações Excluídas/ Incluídas de Membros
+INF-15 - Informações Excluídas/ Incluídas de Projetos
+INF-16 - Informações Excluídas/ Incluídas de Tipos de Tarefa
+INF-17 - Informações Excluídas/ Incluídas de Papéis de Membros
+INF-18 - Informações Excluídas/ Incluídas de Lançamentos
+INF-19 - Informações Excluídas/ Incluídas de Preferências do Usuário
+INF-20 - Informações Excluídas/ Incluídas de Usuário
+INF-21 - Informações Excluídas/ Incluídas de Versões
+INF-22 - Informações Excluídas/ Incluídas de Acompanhantes
+INF-23 - Informações Excluídas/ Incluídas de 
+INF-24 - Informações Excluídas/ Incluídas de 
+INF-24 - Informações Incluídas de Processamento
+- nu_processamento
+- ic_origem
+- ic_tpProcessamento
+- dh_processamento
+- ds_msgErro
+- ic_processamento]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="3e3ee2c8-67a1-4c29-8259-77a872b76378"/>
+          <PID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="4594722b-4cce-41b2-a8a2-aa76bcd9fdb3"/>
+          <PID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="158c8eae-6ca4-4118-8140-bac82df51920"/>
+          <PID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="ba402064-d144-4ad4-860c-a91595cc1a3f"/>
+          <PID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="f1cb3bf1-13ef-463f-8aff-550a28350342"/>
+          <PID name="UC054 - Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

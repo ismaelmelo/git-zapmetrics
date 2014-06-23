@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="c48c396c-2242-4f47-99ce-f1ad636bd2f7"/>
+    <COMPID name="DUC - Desenvolvimento" mc="UseCaseDiagram" uid="3db31f5c-1ce0-4c81-84a9-7f023fbea321"/>
+    <COMPID name="Manter Atores de Sistema" mc="UseCase" uid="9cb4ecda-c0a5-42e8-a069-a7d01788110e"/>
+    <COMPID name="Manter Casos de Uso" mc="UseCase" uid="f890abbd-7271-40ed-aaf5-273f5057b287"/>
+    <COMPID name="Manter Mensagens" mc="UseCase" uid="cb70476c-454d-4455-806d-5a17d1bd8690"/>
+    <COMPID name="Manter Mensagens Vinculadas ao UC" mc="UseCase" uid="df0e6865-f486-4dff-b710-b25624f103f6"/>
+    <COMPID name="Manter Módulos de Sistema" mc="UseCase" uid="1ce2f595-540a-4ea2-aaf1-37906890d298"/>
+    <COMPID name="Manter Regras de Negócio" mc="UseCase" uid="56d0306b-0b63-4448-90a4-1b1a293de808"/>
+    <COMPID name="Manter Regras de Negócio Vinculadas ao UC" mc="UseCase" uid="776bc179-4ff3-44dd-997f-3254b56d9708"/>
+    <COMPID name="Manter Sistemas" mc="UseCase" uid="5d31b36f-4752-475d-8c2b-368753cb2ad0"/>
+    <COMPID name="Manter Versões de Casos de Uso" mc="UseCase" uid="40a73152-8d07-44e0-8539-025377bf12f4"/>
+    <COMPID name="Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+    <COMPID name="Relatório de Casos de Uso" mc="UseCase" uid="1f9ea52f-b275-4414-828d-4ba56f6a643c"/>
+    <COMPID name="Relatório de Mensagens" mc="UseCase" uid="6ca06ada-c12d-4fbc-b48e-db3aa0f877c3"/>
+    <COMPID name="Relatório de Regras de Negócio" mc="UseCase" uid="a4c542aa-6211-40c3-afd9-4a09836e36e8"/>
+    <COMPID name="Relatório de Versões de Regras de Negócio" mc="UseCase" uid="7db485ab-c98e-471c-8cf9-b36120bee9d9"/>
+    <COMPID name="Relatório de Versões de Regras de Negócio por UC" mc="UseCase" uid="594f7cf5-ee58-4325-9bc1-f514b9222f6f"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="c48c396c-2242-4f47-99ce-f1ad636bd2f7"/>
+    <PID name="B06 - Desenvolvimento" mc="Package" uid="be65797c-a721-4e4c-8cc9-5fcf7f9a0f73"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Sistemas" mc="UseCase" uid="5d31b36f-4752-475d-8c2b-368753cb2ad0"/>
+        <COMPID name="Manter Regras de Negócio" mc="UseCase" uid="56d0306b-0b63-4448-90a4-1b1a293de808"/>
+        <COMPID name="Manter Mensagens" mc="UseCase" uid="cb70476c-454d-4455-806d-5a17d1bd8690"/>
+        <COMPID name="Relatório de Casos de Uso" mc="UseCase" uid="1f9ea52f-b275-4414-828d-4ba56f6a643c"/>
+        <COMPID name="Relatório de Regras de Negócio" mc="UseCase" uid="a4c542aa-6211-40c3-afd9-4a09836e36e8"/>
+        <COMPID name="Relatório de Mensagens" mc="UseCase" uid="6ca06ada-c12d-4fbc-b48e-db3aa0f877c3"/>
+        <COMPID name="Relatório de Versões de Regras de Negócio" mc="UseCase" uid="7db485ab-c98e-471c-8cf9-b36120bee9d9"/>
+        <COMPID name="Relatório de Versões de Regras de Negócio por UC" mc="UseCase" uid="594f7cf5-ee58-4325-9bc1-f514b9222f6f"/>
+        <COMPID name="Relatório de Ambientes Ativos por Tipo de Negócio" mc="UseCase" uid="83a4ea3e-fd4c-4cf7-acf3-28249f85b579"/>
+        <COMPID name="Manter Versões de Casos de Uso" mc="UseCase" uid="40a73152-8d07-44e0-8539-025377bf12f4"/>
+        <COMPID name="Manter Módulos de Sistema" mc="UseCase" uid="1ce2f595-540a-4ea2-aaf1-37906890d298"/>
+        <COMPID name="Manter Atores de Sistema" mc="UseCase" uid="9cb4ecda-c0a5-42e8-a069-a7d01788110e"/>
+        <COMPID name="Manter Casos de Uso" mc="UseCase" uid="f890abbd-7271-40ed-aaf5-273f5057b287"/>
+        <COMPID name="Manter Regras de Negócio Vinculadas ao UC" mc="UseCase" uid="776bc179-4ff3-44dd-997f-3254b56d9708"/>
+        <COMPID name="Manter Mensagens Vinculadas ao UC" mc="UseCase" uid="df0e6865-f486-4dff-b710-b25624f103f6"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Desenvolvimento" mc="UseCaseDiagram" uid="3db31f5c-1ce0-4c81-84a9-7f023fbea321"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

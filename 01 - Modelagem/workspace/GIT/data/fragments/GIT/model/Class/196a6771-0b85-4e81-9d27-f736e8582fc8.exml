@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="contagempf" version="3">
+  <DEPS>
+    <ID name="contagempf" mc="Class" uid="196a6771-0b85-4e81-9d27-f736e8582fc8"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="contagempf" mc="Class" uid="196a6771-0b85-4e81-9d27-f736e8582fc8"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[contagempf]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

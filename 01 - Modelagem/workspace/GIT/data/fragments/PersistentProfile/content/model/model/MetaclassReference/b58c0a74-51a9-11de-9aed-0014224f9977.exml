@@ -1,0 +1,382 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="" version="3">
+  <DEPS>
+    <ID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+    <PID name="PersistentProfile" mc="Profile" uid="b584e36a-51a9-11de-9aed-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="ReferencedClassName"><![CDATA[Class]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedTagType">
+        <OBJECT>
+          <ID name="persistent.entity.persistentName" mc="TagType" uid="9b6398d4-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.persistentName]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.discriminatorvalue" mc="TagType" uid="9b685d86-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.discriminatorvalue]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.mutable" mc="TagType" uid="9b6abfe1-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.mutable]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.schema" mc="TagType" uid="9b6abfe6-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.schema]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.catalog" mc="TagType" uid="9b6d2240-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.catalog]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.proxy" mc="TagType" uid="9b6d2245-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.proxy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.dynamic-update" mc="TagType" uid="9b6f849b-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.dynamic-update]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.dynamic-insert" mc="TagType" uid="9b6f84a0-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.dynamic-insert]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.select-before-update" mc="TagType" uid="9b71e6f6-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.select-before-update]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.polymorphism" mc="TagType" uid="9b71e6fb-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.polymorphism]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.where" mc="TagType" uid="9b744950-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.where]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.persister" mc="TagType" uid="9b744955-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.persister]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.batch-size" mc="TagType" uid="9b74495a-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.batch-size]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.optimistic-lock" mc="TagType" uid="9b76abac-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.optimistic-lock]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.lazy" mc="TagType" uid="9b76abb1-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.lazy]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.entity-name" mc="TagType" uid="9b790e06-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.entity-name]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.check" mc="TagType" uid="9b790e0b-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.check]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.rowid" mc="TagType" uid="9b7b7061-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.rowid]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.subselect" mc="TagType" uid="9b7b7066-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.subselect]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.node" mc="TagType" uid="9b7dd2bd-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.node]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.abstract" mc="TagType" uid="9b803516-5694-11de-8f9d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.abstract]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.discriminatorcolumn" mc="TagType" uid="b0a2887c-64ad-11de-90b3-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.discriminatorcolumn]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.discriminatorcolumntype" mc="TagType" uid="fd214e0b-64af-11de-90b3-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.discriminatorcolumntype]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.hasTechnicalKey" mc="TagType" uid="cd339e35-756b-11df-a92d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.hasTechnicalKey]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.technicalKey" mc="TagType" uid="eb3eda8a-756b-11df-a92d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.technicalKey]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="persistent.entity.technicalKeyType" mc="TagType" uid="06b81114-756c-11df-a92d-0014224f9977"/>
+          <PID name="" mc="MetaclassReference" uid="b58c0a74-51a9-11de-9aed-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="ParamNumber"><![CDATA[1]]></ATT>
+            <ATT name="IsQualified">false</ATT>
+            <ATT name="BelongToPrototype">false</ATT>
+            <ATT name="IsHidden">false</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[persistent.entity.technicalKeyType]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

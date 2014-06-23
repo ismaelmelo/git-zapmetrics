@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="GIT" version="3">
+  <DEPS>
+    <ID name="GIT" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+    <COMPID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <COMPID name="Plano de Projeto" mc="Package" uid="299da99c-8688-4c6e-a956-0b4a7ccfeda2"/>
+    <COMPID name="Projeto" mc="Package" uid="4d52eebf-0bb4-4d49-9c33-4ab92eff44b8"/>
+    <COMPID name="Testes" mc="Package" uid="af72bead-8fa8-4d42-a143-e18720843d85"/>
+    <FOREIGNID name="TogafRoot" mc="Stereotype" uid="374ea675-764e-11e0-8277-bc305ba4815c"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="GIT" mc="Package" uid="c19c9d99-3af2-4c60-9318-9a6eda47be16"/>
+    <PID name="GIT" mc="Project" uid="d65feedf-a98d-4d1f-862a-3e646e5c2dc8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[GIT]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Plano de Projeto" mc="Package" uid="299da99c-8688-4c6e-a956-0b4a7ccfeda2"/>
+        <COMPID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+        <COMPID name="Projeto" mc="Package" uid="4d52eebf-0bb4-4d49-9c33-4ab92eff44b8"/>
+        <COMPID name="Testes" mc="Package" uid="af72bead-8fa8-4d42-a143-e18720843d85"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="TogafRoot" mc="Stereotype" uid="374ea675-764e-11e0-8277-bc305ba4815c"/>
+      </LINK>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

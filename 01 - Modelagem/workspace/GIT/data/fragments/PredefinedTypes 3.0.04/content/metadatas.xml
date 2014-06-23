@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ram-component manifest-version="2.0"
+               name="PredefinedTypes" version="3" release="0"  clevel="4">
+    <description>
+        <![CDATA[Predefined types model component provides the default types for UML and Analyst models.
+
+3.0.04 - Fixes the "No Properties" PropertyTableDefinition.
+3.0.03 - Adds a "No Properties" PropertyTableDefinition.
+3.0.02 - All default PropertyDefinitions are now editable.
+3.0.01 - New analyst property types.
+3.0.00 - Init.]]>
+    </description>
+    <dependencies>
+    </dependencies>
+    <contributors>
+    </contributors>
+    <roots>
+      <root metaclass="AnalystProject" name="Analyst Properties" uuid="b9e5d550-1ff4-4bf7-9450-b2d3bb852afe"></root>
+      <root metaclass="Project" name="UML Types" uuid="916bccef-923d-486f-8b92-a88815f4a9e9"></root>
+    </roots>
+</ram-component>

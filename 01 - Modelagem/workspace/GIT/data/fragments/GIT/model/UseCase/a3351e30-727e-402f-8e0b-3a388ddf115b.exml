@@ -1,0 +1,303 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC015 - Manter Ambientes" version="3">
+  <DEPS>
+    <ID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="2d919359-bd81-4aea-896a-73fc93f56965"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC015 - Manter Ambientes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="8734410d-19bb-45d4-9d92-adf0bf230b85"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Ambientes
+
+FP.1 - O usuário solicita pesquisar Ambientes (FA1).
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01, FA6).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4, FA5).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Ambiente
+
+FA1.1 - No passo FP.1 ou FP.4, o usuário solicita incluir um Ambiente.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Copiar Ambiente
+
+FA2.1 - No passo FP.4, o usuário solicita copiar um Ambiente.
+FA2.2 - O sistema apresenta os dados para alteração (INF-06).
+FA2.3 - O usuário preenche as informações passíveis de alteração (INF-07).
+FA2.4 - O usuário confirma a operação.
+FA2.5 - O sistema valida os dados para proceder com a ação de cópia do registro.
+FA2.6 - O sistema inclui as informações em um novo registro com base no registro selecionado (INF-05).
+FA2.7 - O sistema retorna ao passo FP.2.
+
+FA3 - Alterar Ambiente
+
+FA3.1 - No passo FP.4, o usuário solicita alterar um Ambiente.
+FA3.2 - O sistema inclui o fluxo FA4.
+FA3.4 - O usuário preenche as informações passíveis de alteração (INF-08).
+FA3.5 - O usuário confirma a operação.
+FA3.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA3.7 - O sistema altera as informações (INF-08).
+FA3.8 - O sistema retorna ao passo FP.2.
+
+FA4 - Consultar Ambiente
+
+FA4.1 - No passo FP.4 ou FA3.2, o usuário solicita consultar um Ambiente.
+FA4.2 - O sistema apresenta as informações do registro (INF-09, FA2, FA3, FA5).
+FA4.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA5 - Excluir Ambiente
+
+FA5.1 - No passo FP.4, o usuário solicita excluir um Ambiente.
+FA5.2 - O usuário confirma a operação.
+FA5.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA5.4 - O sistema exclui as informações (INF-10).
+FA5.5 - O sistema retorna ao passo FP.2.
+
+FA6 - Filtrar Resultados da Pesquisa
+
+FA6.1 - O usuário decide filtrar os dados da pesquisa.
+FA6.1 - O usuário preenche os filtros da pesquisa (INF-01).
+FA6.2 - O usuário confirma a operação.
+FA6.3 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA6.4 - O sistema retorna ao passo FP.4.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas para Inclusão
+INF-04 - Informações Passíveis de Inclusão
+INF-05 - Informações Incluídas
+INF-06 - Informações Apresentadas para Inclusão por Cópia de Registro
+INF-07 - Informações Incluídas por Cópia de Registro
+INF-08 - Informações Passíveis de Alteração/ Alteradas
+INF-09 - Informações Apresentadas
+INF-10 - Informações Excluídas
+
+Campos Relacionados
+
+AMBIENTE
+- nu_ambiente
+- no_ambiente
+- ds_caracteristicas
+- nu_tpNegocio
+- nu_plataforma
+- nu_tpSistema
+- nu_roteiro
+- ic_ativo
+- nu_ordem
+
+HISTORICO DO AMBIENTE
+- nu_projhist
+- nu_ambiente
+- no_projeto
+- qt_pf
+- qt_sloc
+- qt_slocPf
+- qt_esforcoReal
+- qt_esforcoRealPm
+- qt_prazoRealM
+- ds_projeto
+- ic_situacao
+- ds_acoes
+- nu_usuarioInc
+- dh_inclusao
+- nu_usuarioAlt
+- dh_alteracao
+
+TECNOLOGIA DO AMBIENTE
+
+- nu_tecnoDesenv
+- nu_ambiente
+
+VALORACAO DO AMBIENTE
+
+- nu_ambiente
+- nu_versaoValoracao
+- vr_ipMin
+- vr_ipMed
+- vr_ipMax
+- dh_inclusao
+- nu_usuarioResp
+- ic_tpAtualizacao
+- vr_constanteA
+- vr_constanteB
+- vr_constanteC
+- vr_constanteD
+- nu_altPREC
+- nu_altFLEX
+- nu_altRESL
+- nu_altTEAM
+- nu_altPMAT
+- nu_altRELY
+- nu_altDATA
+- nu_altCPLX1
+- nu_altCPLX2
+- nu_altCPLX3
+- nu_altCPLX4
+- nu_altCPLX5
+- nu_altDOCU
+- nu_altRUSE
+- nu_altTIME
+- nu_altSTOR
+- nu_altPVOL
+- nu_altACAP
+- nu_altPCAP
+- nu_altPCON
+- nu_altAPEX
+- nu_altPLEX
+- nu_altLTEX
+- nu_altTOOL
+- nu_altSITE
+- co_quePREC
+- co_queFLEX
+- co_queRESL
+- co_queTEAM
+- co_quePMAT
+- co_queRELY
+- co_queDATA
+- co_queCPLX1
+- co_queCPLX2
+- co_queCPLX3
+- co_queCPLX4
+- co_queCPLX5
+- co_queDOCU
+- co_queRUSE
+- co_queTIME
+- co_queSTOR
+- co_quePVOL
+- co_queACAP
+- co_quePCAP
+- co_quePCON
+- co_queAPEX
+- co_quePLEX
+- co_queLTEX
+- co_queTOOL
+- co_queSITE
+- ic_metCalibracao
+- qt_linhasCodLingPf]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="4abad1e0-91ee-4fe0-9de0-c09f5b31e97b"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="e051c547-b366-403c-b4ea-8feacb231ab9"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="f0ec80bd-06b3-49b8-bd9b-9b55777c0f15"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="cf421875-0b58-4238-9bc3-fa2ec1195aab"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="16eb3ec8-e34e-4302-91ff-120a604edbc9"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Note" mc="Note" uid="2a5ca5f0-a333-4cea-ba70-832c6b195108"/>
+          <PID name="UC015 - Manter Ambientes" mc="UseCase" uid="a3351e30-727e-402f-8e0b-3a388ddf115b"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[A separação e estudo individual de produtividade por ambiente técnico e organizacional é necessária para que o processo de utilização de métricas seja eficiente.]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

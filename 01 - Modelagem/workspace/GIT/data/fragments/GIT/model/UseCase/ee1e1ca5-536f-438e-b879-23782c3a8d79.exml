@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC026 - Manter Anos" version="3">
+  <DEPS>
+    <ID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="78c71e5a-9361-4ea4-9998-3a068acd6db4"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC026 - Manter Anos]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="5c13424f-2b2c-4ae1-91f0-3477e0bdd4c8"/>
+          <PID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Anos
+
+FP.1 - O usuário solicita pesquisar Anos (FA1).
+FP.2 - O sistema apresenta os resultados da pesquisa (INF-02, FA1, FA2, FA3, FA4).
+FP.3 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Incluir Ano
+
+FA1.1 - No passo FP.1 ou FP.2, o usuário solicita incluir um Ano.
+FA1.2 - O sistema apresenta os dados para inclusão (INF-03).
+FA1.3 - O usuário preenche as informações passíveis de inclusão (INF-04).
+FA1.4 - O usuário confirma a operação.
+FA1.5 - O sistema valida os dados para proceder com a ação de inclusão do registro.
+FA1.6 - O sistema inclui as informações (INF-05).
+FA1.7 - O sistema retorna ao passo FP.2.
+
+FA2 - Alterar Ano
+
+FA2.1 - No passo FP.2, o usuário solicita alterar um Ano.
+FA2.2 - O sistema inclui o fluxo FA4.
+FA2.4 - O usuário preenche as informações passíveis de alteração (INF-06).
+FA2.5 - O usuário confirma a operação.
+FA2.6 - O sistema valida os dados para proceder com a ação de alteração do registro.
+FA2.7 - O sistema altera as informações (INF-06).
+FA2.8 - O sistema retorna ao passo FP.2.
+
+FA3 - Consultar Ano
+
+FA3.1 - No passo FP.2 ou FA3.2, o usuário solicita consultar um Ano.
+FA3.2 - O sistema apresenta as informações do registro (INF-07, FA2, FA3, FA5).
+FA3.3 - O sistema retorna ao fluxo FP.2 ou FA3.4.
+
+FA4 - Excluir Ano
+
+FA4.1 - No passo FP.2, o usuário solicita excluir um Ano.
+FA4.2 - O usuário confirma a operação.
+FA4.3 - O sistema valida os dados para proceder com a ação de exclusão do registro.
+FA4.4 - O sistema exclui as informações (INF-08).
+FA4.5 - O sistema retorna ao passo FP.2.
+
+Informações Complementares
+
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+- nu_ano
+INF-03 - Informações Apresentadas para Inclusão
+- nu_ano
+INF-04 - Informações Passíveis de Inclusão
+- nu_ano
+INF-05 - Informações Incluídas
+- nu_ano
+INF-06 - Informações Passíveis de Alteração/ Alteradas
+- nu_ano
+INF-07 - Informações Apresentadas
+- nu_ano
+INF-08 - Informações Excluídas
+- nu_ano]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="ec221f6c-b21d-4f91-b4bf-0bc624194231"/>
+          <PID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="562a999e-a793-4713-9271-3f6937f7b6d8"/>
+          <PID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="42b3b630-f217-42e2-a165-2506ac7aa4f4"/>
+          <PID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="7d180fd0-9d61-4647-986a-d868f4b836d3"/>
+          <PID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="aa36921b-87db-4547-ad66-6f8a9867d928"/>
+          <PID name="UC026 - Manter Anos" mc="UseCase" uid="ee1e1ca5-536f-438e-b879-23782c3a8d79"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

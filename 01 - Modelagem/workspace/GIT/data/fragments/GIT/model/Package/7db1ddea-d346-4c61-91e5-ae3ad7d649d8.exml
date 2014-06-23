@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="B08 - Metricas" version="3">
+  <DEPS>
+    <ID name="B08 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+    <COMPID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+    <COMPID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+    <COMPID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="B08 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+    <PID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[B08 - Metricas]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+        <COMPID name="DCL - Diagrama de Classes" mc="Package" uid="668c7cf1-9028-4160-9c67-e48352bcc489"/>
+        <COMPID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

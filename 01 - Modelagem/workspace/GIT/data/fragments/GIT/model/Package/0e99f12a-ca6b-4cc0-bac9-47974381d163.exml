@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="0e99f12a-ca6b-4cc0-bac9-47974381d163"/>
+    <COMPID name="DUC - Outsourcing" mc="UseCaseDiagram" uid="de334928-ede3-4110-b114-0ddc517adf92"/>
+    <COMPID name="Manter Contratos" mc="UseCase" uid="68cbb94e-e306-4d6e-af47-a3691e31ee5b"/>
+    <COMPID name="Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+    <COMPID name="Manter Faturas" mc="UseCase" uid="2783fdfe-bb10-4a66-8ee2-90ff445fbd62"/>
+    <COMPID name="Manter Fornecedores" mc="UseCase" uid="0f802f3d-29ec-4872-8ab1-711ec7cf0453"/>
+    <COMPID name="Manter Histórico de Valoração do Item do Contrato" mc="UseCase" uid="5081b9f8-dc37-44e3-8484-3bc0b51cf98b"/>
+    <COMPID name="Manter Itens da Ordem de Compra" mc="UseCase" uid="1ecac2e2-2463-4575-99a4-f524c2107cb7"/>
+    <COMPID name="Manter Itens do Contrato" mc="UseCase" uid="8fec1dd1-6957-4022-9085-2d6379cf3a67"/>
+    <COMPID name="Manter Ordens de Compras" mc="UseCase" uid="b260aef8-5e81-4030-abd9-5254068ce549"/>
+    <COMPID name="Manter Ordens de Servi;o" mc="UseCase" uid="3fbbccac-d875-4724-be33-55516a7db410"/>
+    <COMPID name="Manter Termos" mc="UseCase" uid="5106023d-4273-429b-b85e-fa363de5f7a1"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="0e99f12a-ca6b-4cc0-bac9-47974381d163"/>
+    <PID name="B04 - Outsourcing" mc="Package" uid="fd7b8e94-b4d4-4f85-9f90-51bebc49256e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Demandas" mc="UseCase" uid="e9b91244-d367-4556-9fa6-349cdfc127ff"/>
+        <COMPID name="Manter Ordens de Compras" mc="UseCase" uid="b260aef8-5e81-4030-abd9-5254068ce549"/>
+        <COMPID name="Manter Fornecedores" mc="UseCase" uid="0f802f3d-29ec-4872-8ab1-711ec7cf0453"/>
+        <COMPID name="Manter Contratos" mc="UseCase" uid="68cbb94e-e306-4d6e-af47-a3691e31ee5b"/>
+        <COMPID name="Manter Ordens de Servi;o" mc="UseCase" uid="3fbbccac-d875-4724-be33-55516a7db410"/>
+        <COMPID name="Manter Termos" mc="UseCase" uid="5106023d-4273-429b-b85e-fa363de5f7a1"/>
+        <COMPID name="Manter Faturas" mc="UseCase" uid="2783fdfe-bb10-4a66-8ee2-90ff445fbd62"/>
+        <COMPID name="Manter Itens da Ordem de Compra" mc="UseCase" uid="1ecac2e2-2463-4575-99a4-f524c2107cb7"/>
+        <COMPID name="Manter Histórico de Valoração do Item do Contrato" mc="UseCase" uid="5081b9f8-dc37-44e3-8484-3bc0b51cf98b"/>
+        <COMPID name="Manter Itens do Contrato" mc="UseCase" uid="8fec1dd1-6957-4022-9085-2d6379cf3a67"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Outsourcing" mc="UseCaseDiagram" uid="de334928-ede3-4110-b114-0ddc517adf92"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

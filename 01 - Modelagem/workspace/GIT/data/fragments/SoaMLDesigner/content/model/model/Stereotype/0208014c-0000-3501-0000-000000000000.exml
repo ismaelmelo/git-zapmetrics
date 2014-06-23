@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ServiceContractDiagram" version="3">
+  <DEPS>
+    <ID name="ServiceContractDiagram" mc="Stereotype" uid="0208014c-0000-3501-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="ServiceContractDiagram" mc="Stereotype" uid="0208014c-0000-3501-0000-000000000000"/>
+    <PID name="Diagrams" mc="Profile" uid="0208014c-0000-34f4-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[SoaMLDesigner/res/bmp/serviceContractDiagram.png]]></ATT>
+      <ATT name="Icon"><![CDATA[SoaMLDesigner/res/bmp/serviceContractDiagram.png]]></ATT>
+      <ATT name="IsHidden">false</ATT>
+      <ATT name="LabelKey"><![CDATA[Service Contract Diagram]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[StaticDiagram]]></ATT>
+      <ATT name="Name"><![CDATA[ServiceContractDiagram]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

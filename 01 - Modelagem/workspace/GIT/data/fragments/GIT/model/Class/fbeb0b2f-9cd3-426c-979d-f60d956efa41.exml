@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="logexterno" version="3">
+  <DEPS>
+    <ID name="logexterno" mc="Class" uid="fbeb0b2f-9cd3-426c-979d-f60d956efa41"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="logexterno" mc="Class" uid="fbeb0b2f-9cd3-426c-979d-f60d956efa41"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="2fe33513-ae7c-440b-b9b8-65effda8547c"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[logexterno]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

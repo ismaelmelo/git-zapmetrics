@@ -1,0 +1,177 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC001 - Manter Parâmetros da Organização" version="3">
+  <DEPS>
+    <ID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+    <EXTID name="UC002 - Manter Áreas da Organização" mc="UseCase" uid="9950cf31-2328-4ce2-aa6a-d6320f52513c"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="2d919359-bd81-4aea-896a-73fc93f56965"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC001 - Manter Parâmetros da Organização]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="9546783c-5ec7-4577-8b26-aad6a2c871bb"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC002 - Manter Áreas da Organização" mc="UseCase" uid="9950cf31-2328-4ce2-aa6a-d6320f52513c"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="a06a76ec-d4f6-4d71-bba5-805a4394f7e5"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Alterar Parâmetros da Organização
+
+FP1 - O usuário solicita Alterar Parâmetros da Organização.
+FP2 - O sistema apresenta ao usuário as informações para alteração de Parâmetros da Organização (INF-1).
+FP3 - O usuário preenche as informações passíveis de alteração (INF-2).
+FP4 - O usuário solicita salvar (INF-2).
+FP5 - O sistema salva as informações no repositório de Parâmetros da Organização (INF-2).
+FP6 - O sistema encerra o caso de uso.
+
+Informações Complementares
+
+INF-1 - Informações Apresentadas de Parâmetros da Organização
+INF-2 - Informações Passíveis de Alteração de Parâmetros da Organização
+
+Campos Relacionados
+
+ORGANIZACAO
+- nu_organizacao
+- no_organizacao
+- ds_organizacao
+- ic_ativo
+- nu_verticalNegocio
+
+PARAMETROS DA ORGANIZACAO
+- nu_parametro
+- nu_orgBase
+- nu_area
+- nu_orgMetricas
+- nu_areaMetricas
+- qt_horasMes
+- nu_fornMetricas
+- no_areaMetricas
+- nu_modeloMetricasPadrao
+- nu_areaVincEscritProj
+- no_areaEscritProj
+- nu_sistema
+- nu_usuarioRespAreaTi
+- nu_fornecedorAuditoria
+- dt_inicioOpSistema
+- tx_htmlHomeNaoLogado
+- nu_fornPadraoFsw
+- nu_contFornPadraoFsw
+- nu_itemContFornPadraoFsw
+- nu_pesoProbRisco
+- nu_pesoImpacRisco]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c6a48633-1ea1-4886-ba4e-e09113554dbb"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="e76a4498-69cd-4c86-99cf-53fade2a3e30"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="62b8a16c-6a08-42b4-967d-c1d259d8a207"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="1f219122-d54e-46c4-922a-a53bc69dec8f"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c0cdd8f4-bec0-4c85-87f8-dddc45fe77aa"/>
+          <PID name="UC001 - Manter Parâmetros da Organização" mc="UseCase" uid="75d24c47-355b-4d14-8395-f943d93695bc"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Manter Áreas da Organização]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

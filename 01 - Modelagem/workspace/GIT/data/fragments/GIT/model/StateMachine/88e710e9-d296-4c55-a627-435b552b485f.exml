@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DME - Laudo" version="3">
+  <DEPS>
+    <ID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+    <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="e9d03ac8-f315-42be-bd63-4ef99f159334"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+    <PID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[DME - Laudo]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Region" uid="97d932bc-12d8-4ec7-b404-131c4264f23c"/>
+          <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Aberta" mc="State" uid="d8d31248-a7cc-4536-a20d-e8cdb291c39b"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Aberta]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="b15d08d0-ac9d-4cd6-b416-1ed8e8db339c"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Suspensa" mc="State" uid="9b821dc0-af9c-4589-9ace-982bec5afee5"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Transition" uid="2b9c8ae0-75bf-4691-9aa8-8335145ff1c5"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Cancelada" mc="State" uid="d918640a-d8cb-43dd-b0b7-b53ddf8793a4"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition2" mc="Transition" uid="b58fdeaa-6c2c-4187-8d95-8dce2165174a"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Em Andamento" mc="State" uid="83e94cb2-7388-448b-bc41-a2afe114f37e"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Cancelada" mc="State" uid="d918640a-d8cb-43dd-b0b7-b53ddf8793a4"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Cancelada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="5d3854e5-519e-4ff7-acb7-e2fbeecce480"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="7dee4230-66c1-4daa-b95a-5022fd11bf25"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Fechada" mc="State" uid="7dee4230-66c1-4daa-b95a-5022fd11bf25"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Fechada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="888f148c-34ce-4ba2-86ae-492c79a2dd94"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State" mc="FinalState" uid="1349a91f-80f7-407e-8f52-25eede79aa83"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Suspensa" mc="State" uid="9b821dc0-af9c-4589-9ace-982bec5afee5"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Suspensa]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="78b3d637-acca-4a73-a149-2f2f17e4c089"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="7dee4230-66c1-4daa-b95a-5022fd11bf25"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Em Andamento" mc="State" uid="83e94cb2-7388-448b-bc41-a2afe114f37e"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Em Andamento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="6e17ea10-e6c2-417e-b947-9d2187076b34"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="7dee4230-66c1-4daa-b95a-5022fd11bf25"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Initial State" mc="InitialPseudoState" uid="76bc7d49-4066-48a4-8bca-6304098ac0ec"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="c33da261-97af-4a3b-a983-489bd7ef9fc9"/>
+                      <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Aberta" mc="State" uid="d8d31248-a7cc-4536-a20d-e8cdb291c39b"/>
+                            <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State" mc="FinalState" uid="1349a91f-80f7-407e-8f52-25eede79aa83"/>
+                <PID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="e9d03ac8-f315-42be-bd63-4ef99f159334"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

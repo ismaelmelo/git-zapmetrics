@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ram-component manifest-version="2.0"
+               name="SoaMLDesigner" version="0" release="0"  clevel="0">
+    <description>
+        <![CDATA[]]>
+    </description>
+    <dependencies>
+    </dependencies>
+    <contributors>
+    </contributors>
+    <roots>
+      <root metaclass="ModuleComponent" name="SoaMLDesigner" uuid="4671fd99-8848-11df-a5a6-0014224f9977"></root>
+    </roots>
+</ram-component>

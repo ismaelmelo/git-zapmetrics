@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="plti" version="3">
+  <DEPS>
+    <ID name="plti" mc="Class" uid="9b4b3fe3-cbb7-45fa-8255-3c5398a8d101"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="plti" mc="Class" uid="9b4b3fe3-cbb7-45fa-8255-3c5398a8d101"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="10afe733-2839-4603-8373-b2202d4810fc"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[plti]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

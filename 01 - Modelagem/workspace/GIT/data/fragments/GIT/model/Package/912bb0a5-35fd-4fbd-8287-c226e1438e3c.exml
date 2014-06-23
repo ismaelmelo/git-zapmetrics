@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Requisitos de Qualidade" version="3">
+  <DEPS>
+    <ID name="Requisitos de Qualidade" mc="Package" uid="912bb0a5-35fd-4fbd-8287-c226e1438e3c"/>
+    <FOREIGNID name="BusinessOrganizationDomain" mc="Stereotype" uid="b42187ca-ab75-11df-9861-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Requisitos de Qualidade" mc="Package" uid="912bb0a5-35fd-4fbd-8287-c226e1438e3c"/>
+    <PID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Requisitos de Qualidade]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <LINK relation="Extension">
+        <FOREIGNID name="BusinessOrganizationDomain" mc="Stereotype" uid="b42187ca-ab75-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="6ccab8e3-fbf8-4d0e-8044-2ffbb68c697f"/>
+          <PID name="Requisitos de Qualidade" mc="Package" uid="912bb0a5-35fd-4fbd-8287-c226e1438e3c"/>
+          <ATTRIBUTES>
+            <ATT name="Content"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

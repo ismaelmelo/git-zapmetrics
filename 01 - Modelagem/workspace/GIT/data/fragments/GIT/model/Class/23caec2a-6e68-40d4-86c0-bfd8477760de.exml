@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="stfornecedor" version="3">
+  <DEPS>
+    <ID name="stfornecedor" mc="Class" uid="23caec2a-6e68-40d4-86c0-bfd8477760de"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="stfornecedor" mc="Class" uid="23caec2a-6e68-40d4-86c0-bfd8477760de"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="fb6a95e3-f070-4c33-a8b3-3e19b48840f5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[stfornecedor]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

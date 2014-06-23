@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="valueSpecification" version="3">
+  <DEPS>
+    <ID name="valueSpecification" mc="Stereotype" uid="01ec25d4-0000-16f7-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="valueSpecification" mc="Stereotype" uid="01ec25d4-0000-16f7-0000-000000000000"/>
+    <PID name="SoaML" mc="Profile" uid="01ec25d4-0000-15fb-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="Image"></ATT>
+      <ATT name="Icon"></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="LabelKey"><![CDATA[valueSpecification]]></ATT>
+      <ATT name="BaseClassName"><![CDATA[Dependency]]></ATT>
+      <ATT name="Name"><![CDATA[valueSpecification]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

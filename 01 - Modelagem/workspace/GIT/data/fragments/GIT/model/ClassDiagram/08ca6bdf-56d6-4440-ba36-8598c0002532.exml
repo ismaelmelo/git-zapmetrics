@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Painel de Controle" version="3">
+  <DEPS>
+    <ID name="DCL - Painel de Controle" mc="ClassDiagram" uid="08ca6bdf-56d6-4440-ba36-8598c0002532"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Painel de Controle" mc="ClassDiagram" uid="08ca6bdf-56d6-4440-ba36-8598c0002532"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="e03be976-7205-4982-8464-ead8910c0801"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">93</ATT>
+      <ATT name="UiData"><![CDATA[eJyNUU1vwjAM/StR7y0dHxWTChzaaULrNjSkXSe3MSyQJihxGf33S1eKNKZVnGI7fn7v2fHiVEp2RGOFVjPvLgg9tpjHr/kOC2KCu5LHqD7gzNNmG5SaoxQ64AK2BsoAuSBtAktAYh+gxBIV2TYvuqbHcv2Tp23usRJ22nxcSENvHq+MPqChmikoHZeEWleUAoH7ewdZ4VmEqqT0BvN40AH+QNdUS/R+WRj2WbBNvw0KbTBosTfoS8AWwJF3ZA8nesPNjSwvbsQZyfBEab50Gn/CJuC4gUrSlclBa6fPuEEJhNzpuNrZc1Nix6bilEuw9nwJFk4LiHK+8ScRj/zxeBz6OYwifzq5nxZhGA4no2H/tt00elL6S2WQo7wiXpMRanuhTpOM+WwFQqFkHFmiFRntttDL0HQsVaLLg7aC3EH6SfqHJZ9CcoPNjEzYZp3n519EJtTe9rR3h/kGGskksA==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[DCL - Painel de Controle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

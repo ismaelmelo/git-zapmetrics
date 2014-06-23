@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Atores" version="3">
+  <DEPS>
+    <ID name="DUC - Atores" mc="UseCaseDiagram" uid="f3bc6cb0-1a79-4f20-b77a-f2bc02cfd3de"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Atores" mc="UseCaseDiagram" uid="f3bc6cb0-1a79-4f20-b77a-f2bc02cfd3de"/>
+    <PID name="Atores" mc="Package" uid="5be80729-c450-4667-84de-f0af20b59a4d"/>
+    <ATTRIBUTES>
+      <ATT name="UiDataVersion">267</ATT>
+      <ATT name="UiData"><![CDATA[eJztm/9uozgQx18F5X9SMDZJ1B+rvfauV13bXW2ve9L9UxkwKVvAlXG2zb3NPcu92Nlp6G1pLiEkOMSy1CjRBMY2fGbMzLc5+vCcpdZ3woqE5sc9t+/0rA8nR5+CbyTkVhIJU8/i00dy3KNs3M9oRNKE9qMEjxnO+iRKOGX9SUFCXJA+SUlGcl6UhvKw8+y2IKfCcPZi6FkZ/kbZ3eu4Tu/k6DOjj4TxqZXjTAyX4imd8DPMsfjuK04nZD6PfJKmvYOTo4PyhHen3vBpSnpvVgGWraKQxxf9kDLSfzm3xvzEckIckagc7Odn/oXENUe5Fi7mZ1rkmZ8FF2KOs4/yg7h6lrx8lVUevKxn2coZSTEnkZhI5aJdSZP1XVqOe29vhhV7QeiHgWO7eDCyYQwcOxgMsB2DIHRAGEdeVJ3Ku3tV8N9y+pRf4oCklaFvOEvy8evgZ7enlm19FNiQYrlXRlNykZ/S7JEWCRf3Ybnj5c5O75M0YkT6uEwK/gYOrwniOJTm8+yjfN8I6C9iHjgfSxbmS3F951D+wcPBaG3UYeuoS85fgqolQGfX1IKRE4SI+LbnuJ4NfQDs4dCL7QCCyA2IH/pouD0ub4vJP3+zhHaESbQxk59ZkmE2vRbnbhlP53DGpg/XZtOvy6Zw9TzdGNDqBA2gVadXOMlnhDQGdVAD1IJjnjz8x6n0WjzikNwTcdsksdel5deZRf0DwlBZ1vQNlCugnDOw1GVxT5/ukvCdq5+oGAvnr744m6yAe+bpgUyfKIs2d8Zx+HBXcMII3c7M0gU3YX1XOCg4E9vDCkcxTv//sfOHaBk1CHrMxV0OJpyMGZ08yl2qNJxLg/qQdx21u5EJ/FWBXyFivT3pYP62nFy3Tj1bRVc6xHL6JbqfSsOu0K1dzxp0FT1IEX5Poxa5rVOkVrlNcrER5SKniw0i5BOBw3l2MbfdlLYd0Fu7RDX0qqG3hKJ5GeDWKVgb8bmrFKu4VnW1Kla3SmeLWbVJ9VqL2j9pvovMWruMNdAqSq0zELbGbk2sl9dnJcghzTKa92cV5stR868E0GckxpOU/yLu1a5aMsDUZx1jeTstmUVNhuY9mTre6jdl6s6tYVdmSRxXRnnfxO/Pma6MKneesQzPUjuq0b4By4tg9flhgQSGpMQAB4fiwXLtxKG4Ojab4KrEcSMWm6YJrxNaJoM0zCALI72T2rZ8jfwm4jbQRt0ehgMPIjyyA+CPbBiJqA5i4Ns4RI47gvFo5ETbi+rfiYhUlvyFI7pCWFGmcAM9JW6guG8AWt59NOF0c6EbaKJ0A3VSN2i5pNKETaN3d13vBloI3p7ihooJ/66o3p4WqrenuK43/HZC+vY0kr49xdK3QViR/u3ppn97iutYT6s6dk/0b08z/dtTrH/rBW1r6XUXGrinhQYOTcnWRaCNjLVhu6YjQjjcFyF86DYRwqHqgtlsh0YN70gaWRjunVTDgXgNnEY/9dZGDUeI+EPXJzaKAmzD2AM2jhG2CXAGbkQGwIur+XyDyL66sf6QkdANIRzqKYRD1T/2bnnz2X9EN9fAoSYaOFSngcOWK6r9x9LI312Xv6EW8jdS3Esxkd8B5RtpoXwj1f/RbtDdseiNNBK9kWLR29Dbvt6NdNO7keJyFWlVru6J3o0007uRYr1bL2jbyKy7kLqRFlK3b8qzjrFs5KkNuzIdUbn9fVG5EWqicvuqi2OzCRqBe/cZpH5yuUzyh6LG48a/48uXuQ==]]></ATT>
+      <ATT name="PdeProperties"></ATT>
+      <ATT name="Name"><![CDATA[DUC - Atores]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

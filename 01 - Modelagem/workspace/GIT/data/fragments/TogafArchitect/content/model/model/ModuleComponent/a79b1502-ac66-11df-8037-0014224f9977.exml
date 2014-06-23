@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="TogafArchitect" version="3">
+  <DEPS>
+    <ID name="TogafArchitect" mc="ModuleComponent" uid="a79b1502-ac66-11df-8037-0014224f9977"/>
+    <COMPID name="ApplicationArchitecture" mc="Profile" uid="cd581cfa-ab6c-11df-9861-0014224f9977"/>
+    <COMPID name="Business Architecture" mc="Profile" uid="c4b60052-ab6c-11df-9861-0014224f9977"/>
+    <COMPID name="BusinessEntities" mc="Profile" uid="c13a53c2-ab6c-11df-9861-0014224f9977"/>
+    <COMPID name="DataArchitecture" mc="Profile" uid="c9af23e2-ab6c-11df-9861-0014224f9977"/>
+    <COMPID name="Structure" mc="Profile" uid="bcbac7ba-ab6c-11df-9861-0014224f9977"/>
+    <COMPID name="TechnologyArchitecture" mc="Profile" uid="d19e70c2-ab6c-11df-9861-0014224f9977"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="TogafArchitect" mc="ModuleComponent" uid="a79b1502-ac66-11df-8037-0014224f9977"/>
+    <ATTRIBUTES>
+      <ATT name="LicenseKey">0</ATT>
+      <ATT name="MajVersion">3</ATT>
+      <ATT name="MinVersion">0</ATT>
+      <ATT name="MinMinVersion"><![CDATA[5.9017]]></ATT>
+      <ATT name="MinBinVersionCompatibility"></ATT>
+      <ATT name="JavaClassName"><![CDATA[org.modelio.togaf.impl.TogafArchitectModule]]></ATT>
+      <ATT name="State">SoModuleStateActivated</ATT>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[TogafArchitect]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedProfile">
+        <COMPID name="BusinessEntities" mc="Profile" uid="c13a53c2-ab6c-11df-9861-0014224f9977"/>
+        <COMPID name="Business Architecture" mc="Profile" uid="c4b60052-ab6c-11df-9861-0014224f9977"/>
+        <COMPID name="DataArchitecture" mc="Profile" uid="c9af23e2-ab6c-11df-9861-0014224f9977"/>
+        <COMPID name="ApplicationArchitecture" mc="Profile" uid="cd581cfa-ab6c-11df-9861-0014224f9977"/>
+        <COMPID name="TechnologyArchitecture" mc="Profile" uid="d19e70c2-ab6c-11df-9861-0014224f9977"/>
+        <COMPID name="Structure" mc="Profile" uid="bcbac7ba-ab6c-11df-9861-0014224f9977"/>
+      </COMP>
+      <COMP relation="ModuleParameter">
+        <OBJECT>
+          <ID name="DisplayNote" mc="ModuleParameter" uid="417e78ae-d6a2-11df-ade8-0014224f9977"/>
+          <PID name="TogafArchitect" mc="ModuleComponent" uid="a79b1502-ac66-11df-8037-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[DisplayNote]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Mode" mc="ModuleParameter" uid="901cb00b-3aae-11e1-83d9-bc305ba4815c"/>
+          <PID name="TogafArchitect" mc="ModuleComponent" uid="a79b1502-ac66-11df-8037-0014224f9977"/>
+          <ATTRIBUTES>
+            <ATT name="SetName"></ATT>
+            <ATT name="AssociatedType">TYPE_PARAM_STRING</ATT>
+            <ATT name="IsUserRead">true</ATT>
+            <ATT name="IsUserWrite">true</ATT>
+            <ATT name="IsApiRead">true</ATT>
+            <ATT name="IsApiWrite">true</ATT>
+            <ATT name="Name"><![CDATA[Mode]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

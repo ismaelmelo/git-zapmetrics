@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="wsdlExtention" version="3">
+  <DEPS>
+    <ID name="wsdlExtention" mc="Stereotype" uid="00602248-0000-03cb-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="wsdlExtention" mc="Stereotype" uid="00602248-0000-03cb-0000-000000000000"/>
+    <PID name="Profilwsdl" mc="Profile" uid="01fc01c0-0000-1520-0000-000000000000"/>
+    <ATTRIBUTES>
+      <ATT name="Image"><![CDATA[res/bmp/ExtentionElement16.png]]></ATT>
+      <ATT name="Icon"><![CDATA[res/bmp/ExtentionElement16.png]]></ATT>
+      <ATT name="IsHidden">true</ATT>
+      <ATT name="LabelKey"></ATT>
+      <ATT name="BaseClassName"><![CDATA[BindableInstance]]></ATT>
+      <ATT name="Name"><![CDATA[wsdlExtention]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="DefinedNoteType">
+        <OBJECT>
+          <ID name="wsdl.extention.text" mc="NoteType" uid="00602248-0000-20f5-0000-000000000000"/>
+          <PID name="wsdlExtention" mc="Stereotype" uid="00602248-0000-03cb-0000-000000000000"/>
+          <ATTRIBUTES>
+            <ATT name="IsHidden">true</ATT>
+            <ATT name="LabelKey"></ATT>
+            <ATT name="Name"><![CDATA[wsdl.extention.text]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES></DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

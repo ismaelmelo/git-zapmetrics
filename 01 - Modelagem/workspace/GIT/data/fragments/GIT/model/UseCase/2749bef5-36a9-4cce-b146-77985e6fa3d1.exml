@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC059 - Visualizar Painel de Controle" version="3">
+  <DEPS>
+    <ID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="ad1074df-76f5-4921-88fa-bfbf03ecd3a3"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC059 - Visualizar Painel de Controle]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="61b94af6-26b6-4330-9702-43d95a6fbddf"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Visualizar Painel de Controle
+
+FP.1 - O usuário solicita visualizar o Painel de Controle.
+FP.2 - O sistema apresenta os dados do último Processamento realizado (FA1, INF-01).
+FP.3 - O sistema apresenta os Widgets do Perfil do usuário logado (INF-02).
+FP.4 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Processar Atualização
+
+FA1.1 - No passo FP.2, o usuário solicita realizar um processamento.
+FA1.2 - O sistema executa o processamento de acordo com o P1 [ UC054 - Processar Atualização ].
+FA1.3 - O sistema inclui as informações do Processamento (INF-03).
+FA1.4 - O sistema retorna ao passo FP.2.
+
+Informações Complementares
+
+INF-01 - Informações Apresentadas do Último Processamento Realizado
+INF-02 - Informações Apresentadas dos Widgets do Perfil
+INF-03 - Informações Incluídas do Processamento
+
+UCs Relacionados
+
+P1 [ UC054 - Processar Atualização ]]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="42475144-6630-4a33-87bb-9f800eb7c59e"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="7c3f1c5e-bc58-4cee-947d-9dac6276c6f1"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="8a419718-0785-49b6-90d5-949be46aae90"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c0c1fde4-6881-4873-b086-0916f87f2d2c"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="36125a62-ece2-401c-978e-c013786c4420"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="Note" mc="Note" uid="4e29406d-b4b9-4ecb-81ca-999ce25e84b8"/>
+          <PID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Exibe os widgets configurados par ao perfil de usuário que está acessando o sistema.]]></ATT>
+            <ATT name="Name"><![CDATA[Note]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

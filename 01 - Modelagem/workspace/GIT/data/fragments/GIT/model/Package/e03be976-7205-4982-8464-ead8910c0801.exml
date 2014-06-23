@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="e03be976-7205-4982-8464-ead8910c0801"/>
+    <COMPID name="DCL - Diagrama de Classes Class diagram" mc="ClassDiagram" uid="08ca6bdf-56d6-4440-ba36-8598c0002532"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="e03be976-7205-4982-8464-ead8910c0801"/>
+    <PID name="B01 - Painel de Controle" mc="Package" uid="7738df21-f44c-4693-be42-1e9e2a2cf728"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Product">
+        <COMPID name="DCL - Diagrama de Classes Class diagram" mc="ClassDiagram" uid="08ca6bdf-56d6-4440-ba36-8598c0002532"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

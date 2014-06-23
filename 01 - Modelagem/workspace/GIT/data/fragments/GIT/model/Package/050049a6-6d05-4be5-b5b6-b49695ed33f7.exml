@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DCL - Diagrama de Classes" version="3">
+  <DEPS>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="050049a6-6d05-4be5-b5b6-b49695ed33f7"/>
+    <COMPID name="DCL - Desenvolvimento" mc="ClassDiagram" uid="ca556d66-bd4b-47ce-945d-7f9dc11bf7f1"/>
+    <COMPID name="ator" mc="Class" uid="d9ed1bb0-3941-4174-9885-104df53ed181"/>
+    <COMPID name="mensagem" mc="Class" uid="0bbff769-88f8-485b-b31e-e84371a33605"/>
+    <COMPID name="modulo" mc="Class" uid="970f70be-4f15-4a3a-93e6-2aed735df745"/>
+    <COMPID name="regra" mc="Class" uid="ee55ac2d-6588-4dfe-ad82-01ca45308f39"/>
+    <COMPID name="regraversao" mc="Class" uid="d0c4fcc0-9238-40c5-a555-5adfae36663d"/>
+    <COMPID name="sistema" mc="Class" uid="205b11c3-7ca5-465c-9add-2cd083bf9bcf"/>
+    <COMPID name="uc" mc="Class" uid="caa79b25-01a2-48c4-977a-2d775c17f366"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DCL - Diagrama de Classes" mc="Package" uid="050049a6-6d05-4be5-b5b6-b49695ed33f7"/>
+    <PID name="B07 - Desenvolvimento" mc="Package" uid="be65797c-a721-4e4c-8cc9-5fcf7f9a0f73"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DCL - Diagrama de Classes]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="sistema" mc="Class" uid="205b11c3-7ca5-465c-9add-2cd083bf9bcf"/>
+        <COMPID name="regra" mc="Class" uid="ee55ac2d-6588-4dfe-ad82-01ca45308f39"/>
+        <COMPID name="regraversao" mc="Class" uid="d0c4fcc0-9238-40c5-a555-5adfae36663d"/>
+        <COMPID name="mensagem" mc="Class" uid="0bbff769-88f8-485b-b31e-e84371a33605"/>
+        <COMPID name="uc" mc="Class" uid="caa79b25-01a2-48c4-977a-2d775c17f366"/>
+        <COMPID name="modulo" mc="Class" uid="970f70be-4f15-4a3a-93e6-2aed735df745"/>
+        <COMPID name="ator" mc="Class" uid="d9ed1bb0-3941-4174-9885-104df53ed181"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DCL - Desenvolvimento" mc="ClassDiagram" uid="ca556d66-bd4b-47ce-945d-7f9dc11bf7f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

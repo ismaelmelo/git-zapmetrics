@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DME - Solicitação" version="3">
+  <DEPS>
+    <ID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+    <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="e9e22715-93af-41fd-84d2-4e9c2aa9532a"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+    <PID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[DME - Solicitação]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Region" uid="6966133f-be0e-4077-9069-948438c7ac7b"/>
+          <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Aberta" mc="State" uid="51f5f604-8d23-41c9-9e39-e2d91751401b"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Aberta]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="661f435b-a2cc-41a3-9ea9-2ace76fc5702"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Suspensa" mc="State" uid="03b1bc2a-994e-4de8-b4e5-53485c4bc1e2"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Transition" uid="aa9ce21c-dbcf-4188-a7eb-c3cc7582ca82"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Cancelada" mc="State" uid="ebd94df1-5266-49fb-ab96-81866f5681d4"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition2" mc="Transition" uid="32cf12af-39e1-453f-af34-d83e6775c502"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Em Andamento" mc="State" uid="aeaa415a-6ca7-49da-9b9b-3cc660267ddb"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Cancelada" mc="State" uid="ebd94df1-5266-49fb-ab96-81866f5681d4"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Cancelada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="d3ac5f6b-74d1-4c27-8443-5a22dbd7cca9"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="521de227-68d4-41f1-8cd2-5dacd2c74f5b"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Fechada" mc="State" uid="521de227-68d4-41f1-8cd2-5dacd2c74f5b"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Fechada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="73dff532-f28a-4b8b-b864-5777518113a4"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State" mc="FinalState" uid="24d92022-d162-48fd-a496-547da8049b07"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Suspensa" mc="State" uid="03b1bc2a-994e-4de8-b4e5-53485c4bc1e2"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Suspensa]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="31b91cbc-8284-48dc-adf8-76a41c9219d3"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="521de227-68d4-41f1-8cd2-5dacd2c74f5b"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Em Andamento" mc="State" uid="aeaa415a-6ca7-49da-9b9b-3cc660267ddb"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Em Andamento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="30700147-1782-4f62-95fb-95e18da65803"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="521de227-68d4-41f1-8cd2-5dacd2c74f5b"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Initial State" mc="InitialPseudoState" uid="d5b2797f-5d0f-45a3-94cc-6850f946290c"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="9bc36ff3-3c3b-4c6b-8a88-78122a09b07c"/>
+                      <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Aberta" mc="State" uid="51f5f604-8d23-41c9-9e39-e2d91751401b"/>
+                            <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State" mc="FinalState" uid="24d92022-d162-48fd-a496-547da8049b07"/>
+                <PID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="e9e22715-93af-41fd-84d2-4e9c2aa9532a"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

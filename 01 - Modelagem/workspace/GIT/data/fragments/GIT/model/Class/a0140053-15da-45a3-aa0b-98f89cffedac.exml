@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="gpcomite_membro" version="3">
+  <DEPS>
+    <ID name="gpcomite_membro" mc="Class" uid="a0140053-15da-45a3-aa0b-98f89cffedac"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="gpcomite_membro" mc="Class" uid="a0140053-15da-45a3-aa0b-98f89cffedac"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="03ada269-5ac2-440a-831d-75c718a698d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[gpcomite_membro]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

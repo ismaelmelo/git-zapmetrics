@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+    <COMPID name="DUC - Métricas" mc="UseCaseDiagram" uid="98f84b89-4e53-4ec0-bd41-016de83ea037"/>
+    <COMPID name="Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+    <COMPID name="Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+    <COMPID name="Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+    <COMPID name="Manter Ocorrências da Solicitação" mc="UseCase" uid="199e590f-e13a-43dd-b799-79e904bc809e"/>
+    <COMPID name="Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="0b12324b-f0b0-4ddd-ac15-f61b6f004556"/>
+    <PID name="B07 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Solicitações de Métricas" mc="UseCase" uid="d796b3c0-8ceb-4621-9e26-40b2dc65397b"/>
+        <COMPID name="Manter Contagens de PF" mc="UseCase" uid="f644828d-7ca6-4ea7-867f-fd14483208fe"/>
+        <COMPID name="Manter Estimativas Derivadas" mc="UseCase" uid="5ed7cd10-1d7d-4c3f-bd8c-15c5dc2e07f7"/>
+        <COMPID name="Manter Laudos" mc="UseCase" uid="c1d9cce4-dd02-4c25-9c29-e811bb78b4f7"/>
+        <COMPID name="Manter Ocorrências da Solicitação" mc="UseCase" uid="199e590f-e13a-43dd-b799-79e904bc809e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Métricas" mc="UseCaseDiagram" uid="98f84b89-4e53-4ec0-bd41-016de83ea037"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

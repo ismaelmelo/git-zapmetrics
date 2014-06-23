@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Atores" version="3">
+  <DEPS>
+    <ID name="Atores" mc="Package" uid="5be80729-c450-4667-84de-f0af20b59a4d"/>
+    <COMPID name="DUC - Atores" mc="UseCaseDiagram" uid="f3bc6cb0-1a79-4f20-b77a-f2bc02cfd3de"/>
+    <COMPID name="MS Word" mc="Actor" uid="55e6816e-5dba-4f32-af5a-e2071de723f1"/>
+    <COMPID name="Temporizador" mc="Actor" uid="8c7345a9-b269-4d22-bf26-ac50194f990d"/>
+    <COMPID name="Usuário" mc="Actor" uid="4d0bc5e6-3013-4622-883f-b42d1be6c658"/>
+    <FOREIGNID name="BusinessOrganizationDomain" mc="Stereotype" uid="b42187ca-ab75-11df-9861-0014224f9977"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="Atores" mc="Package" uid="5be80729-c450-4667-84de-f0af20b59a4d"/>
+    <PID name="Especificações Suplementares" mc="Package" uid="2f9095a0-313a-43c9-aff0-7a8dde2a642e"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Atores]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Usuário" mc="Actor" uid="4d0bc5e6-3013-4622-883f-b42d1be6c658"/>
+        <COMPID name="Temporizador" mc="Actor" uid="8c7345a9-b269-4d22-bf26-ac50194f990d"/>
+        <COMPID name="MS Word" mc="Actor" uid="55e6816e-5dba-4f32-af5a-e2071de723f1"/>
+      </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="BusinessOrganizationDomain" mc="Stereotype" uid="b42187ca-ab75-11df-9861-0014224f9977"/>
+      </LINK>
+      <COMP relation="Product">
+        <COMPID name="DUC - Atores" mc="UseCaseDiagram" uid="f3bc6cb0-1a79-4f20-b77a-f2bc02cfd3de"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="63ed7b26-263a-4e4e-a693-30102decdbe9"/>
+          <PID name="Atores" mc="Package" uid="5be80729-c450-4667-84de-f0af20b59a4d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Os seguintes atores foram identificados.]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

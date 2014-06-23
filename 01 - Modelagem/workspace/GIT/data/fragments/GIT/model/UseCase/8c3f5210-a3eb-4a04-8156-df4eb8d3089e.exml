@@ -1,0 +1,151 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC056 - Pesquisar Auditoria" version="3">
+  <DEPS>
+    <ID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="f0707904-433d-4349-b471-a06466e634e7"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC056 - Pesquisar Auditoria]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="7a2c2612-db1f-4f60-b6e4-75380b45ab09"/>
+          <PID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Pesquisar Auditoria
+
+FP.1 - O usuário solicita pesquisar Auditoria.
+FP.2 - O sistema apresenta os filtros da pesquisa (INF-01, FA1).
+FP.3 - O sistema solicita o preenchimento dos filtros da pesquisa (INF-01).
+FP.4 - O sistema apresenta os resultados da pesquisa (INF-02, FA2).
+FP.5 - O sistema encerra o caso de uso.
+
+Fluxos Alternativos
+
+FA1 - Filtrar Resultados da Pesquisa
+
+FA1.1 - O usuário decide filtrar os dados da pesquisa.
+FA1.2 - O usuário preenche os filtros da pesquisa (INF-01).
+FA1.3 - O usuário confirma a operação.
+FA1.4 - O sistema valida o preenchimento dos filtros da pesquisa.
+FA1.5 - O sistema retorna ao passo FP.4.
+
+FA2 - Consultar Auditoria
+
+FA2.1 - No passo FP.4, o usuário solicita consultar Auditoria.
+FA2.2 - O sistema apresenta as informações do registro (INF-03).
+FA2.3 - O sistema retorna ao fluxo FP.5.
+
+Informações Complementares
+
+INF-01 - Filtros da Pesquisa
+INF-02 - Informações Apresentadas no Resultado da Pesquisa
+INF-03 - Informações Apresentadas de Auditoria
+- nu_identificador
+- dt_data
+- ds_dominioArquivo
+- no_perfil
+- ic_acao
+- no_tabela
+- no_campo
+- nu_chaveCampo
+- im_antes
+- im_depois]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="ca973f51-39fb-421f-952c-f6fb7752d8c7"/>
+          <PID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="17f232a4-9f56-4c0b-93c2-ccddf3be16ef"/>
+          <PID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="825783ef-b72b-4503-9d14-365f052a5fd8"/>
+          <PID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="0ae3a0f0-a788-4eab-a899-ac1596e1b48c"/>
+          <PID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="d5ecee63-d162-4474-ae6c-869b3968e932"/>
+          <PID name="UC056 - Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

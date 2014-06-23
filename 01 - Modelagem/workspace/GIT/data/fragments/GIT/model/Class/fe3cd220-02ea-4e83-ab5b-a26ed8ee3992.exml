@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="tparea" version="3">
+  <DEPS>
+    <ID name="tparea" mc="Class" uid="fe3cd220-02ea-4e83-ab5b-a26ed8ee3992"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="tparea" mc="Class" uid="fe3cd220-02ea-4e83-ab5b-a26ed8ee3992"/>
+    <PID name="DCL - Diagrama de Classes" mc="Package" uid="fb6a95e3-f070-4c33-a8b3-3e19b48840f5"/>
+    <ATTRIBUTES>
+      <ATT name="IsActive">false</ATT>
+      <ATT name="IsMain">false</ATT>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[tparea]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES></DEPENDENCIES>
+  </OBJECT>
+</EXT>

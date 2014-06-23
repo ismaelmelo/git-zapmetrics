@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DME - Diagrama de Maquina de Estados" version="3">
+  <DEPS>
+    <ID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+    <COMPID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+    <COMPID name="DME - Estimativas Derivadas" mc="StateMachine" uid="0f184c96-7eb7-447a-b813-5627e16c3078"/>
+    <COMPID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+    <COMPID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+    <PID name="B08 - Metricas" mc="Package" uid="7db1ddea-d346-4c61-91e5-ae3ad7d649d8"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DME - Diagrama de Maquina de Estados]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="DME - Solicitação" mc="StateMachine" uid="23e684fc-37ef-42be-9e1a-d5fc55f7bca7"/>
+        <COMPID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+        <COMPID name="DME - Estimativas Derivadas" mc="StateMachine" uid="0f184c96-7eb7-447a-b813-5627e16c3078"/>
+        <COMPID name="DME - Laudo" mc="StateMachine" uid="88e710e9-d296-4c55-a627-435b552b485f"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

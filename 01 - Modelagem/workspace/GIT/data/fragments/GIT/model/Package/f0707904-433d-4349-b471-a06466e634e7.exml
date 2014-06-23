@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="f0707904-433d-4349-b471-a06466e634e7"/>
+    <COMPID name="DUC - ADM Acessos" mc="UseCaseDiagram" uid="d4c7d4e6-5234-415a-a5fc-68a417e02e34"/>
+    <COMPID name="Manter Parâmetros de Integrações" mc="UseCase" uid="daf2260e-63d0-44c2-81de-22aeb9a700cb"/>
+    <COMPID name="Manter Perfis" mc="UseCase" uid="5593e85e-9d5d-4a9a-959b-8f3d7febe727"/>
+    <COMPID name="Manter Projetos Agrupadores" mc="UseCase" uid="ca2a4411-d627-42c2-8307-5c095a97f69e"/>
+    <COMPID name="Manter Usuários" mc="UseCase" uid="f370d384-c6b2-4b10-a736-81e44f650285"/>
+    <COMPID name="Manter Widgets do Perfil" mc="UseCase" uid="a77de741-6953-4525-9027-d01e5b3a049b"/>
+    <COMPID name="Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+    <COMPID name="Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+    <COMPID name="Pesquisar Processamento" mc="UseCase" uid="056bdd11-2487-4eb9-81f0-a28c6d9683c2"/>
+    <COMPID name="Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+    <COMPID name="Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="f0707904-433d-4349-b471-a06466e634e7"/>
+    <PID name="A03 - Acessos" mc="Package" uid="2c4466c6-421c-462a-94e2-576a44b5b03b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Usuários" mc="UseCase" uid="f370d384-c6b2-4b10-a736-81e44f650285"/>
+        <COMPID name="Manter Perfis" mc="UseCase" uid="5593e85e-9d5d-4a9a-959b-8f3d7febe727"/>
+        <COMPID name="Manter Widgets do Perfil" mc="UseCase" uid="a77de741-6953-4525-9027-d01e5b3a049b"/>
+        <COMPID name="Manter Parâmetros de Integrações" mc="UseCase" uid="daf2260e-63d0-44c2-81de-22aeb9a700cb"/>
+        <COMPID name="Pesquisar Processamento" mc="UseCase" uid="056bdd11-2487-4eb9-81f0-a28c6d9683c2"/>
+        <COMPID name="Processar Atualização" mc="UseCase" uid="b2752f7d-ded1-4416-a46d-8e7a5ee13f22"/>
+        <COMPID name="Manter Projetos Agrupadores" mc="UseCase" uid="ca2a4411-d627-42c2-8307-5c095a97f69e"/>
+        <COMPID name="Pesquisar Auditoria" mc="UseCase" uid="8c3f5210-a3eb-4a04-8156-df4eb8d3089e"/>
+        <COMPID name="Pesquisar LOG Externo" mc="UseCase" uid="7308e02a-ca88-44b2-98c4-9fca63353e27"/>
+        <COMPID name="Registrar LOG Externo" mc="UseCase" uid="86c9e92f-5bbe-442e-a7d3-ab3f8e724a36"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - ADM Acessos" mc="UseCaseDiagram" uid="d4c7d4e6-5234-415a-a5fc-68a417e02e34"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DME - Contagem" version="3">
+  <DEPS>
+    <ID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+    <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="9449e063-5a95-4d7a-8198-7eb1b3c79aab"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+    <PID name="DME - Diagrama de Maquina de Estados" mc="Package" uid="e8db32bd-0c3a-45ae-b1a8-2ebfba8c7317"/>
+    <ATTRIBUTES>
+      <ATT name="Kind">Dynamic</ATT>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[DME - Contagem]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Top">
+        <OBJECT>
+          <ID name="" mc="Region" uid="8c35d4d2-3e3f-400b-bd7d-eb6e148d7ab2"/>
+          <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+          <ATTRIBUTES>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="Aberta" mc="State" uid="bd3811ae-e8ef-4438-8be6-d3169ae89137"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Aberta]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="599b562d-63d2-4cdd-be57-43eee4698725"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Suspensa" mc="State" uid="e75c64cf-0f09-45d5-bd93-a9474223fd77"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Transition" uid="7af1f0c8-eca9-4957-b3d6-f31092b5cde8"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Cancelada" mc="State" uid="9e9cd712-eadb-4465-9699-86b61cff9ad7"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition2" mc="Transition" uid="aeb67477-67f0-46d6-ad96-f381127ab077"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition2]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Em Andamento" mc="State" uid="e9e375ca-d1b0-4f97-94c4-eceaa1fff763"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Cancelada" mc="State" uid="9e9cd712-eadb-4465-9699-86b61cff9ad7"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Cancelada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="6365bb06-64e0-4b28-9c98-bc3c5d0addfd"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="cb5fe902-5945-4419-8bb0-587599430de3"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Fechada" mc="State" uid="cb5fe902-5945-4419-8bb0-587599430de3"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Fechada]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="6151523c-0000-4a43-a96c-50577019560e"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State" mc="FinalState" uid="c2e0a52a-da56-4277-8d84-38160e63ddc2"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Suspensa" mc="State" uid="e75c64cf-0f09-45d5-bd93-a9474223fd77"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Suspensa]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="7446fb21-3a41-43c2-b651-c2ea379ea1a5"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="cb5fe902-5945-4419-8bb0-587599430de3"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Em Andamento" mc="State" uid="e9e375ca-d1b0-4f97-94c4-eceaa1fff763"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Em Andamento]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="9a949036-d6a1-46a6-a160-3a284d3eca74"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Fechada" mc="State" uid="cb5fe902-5945-4419-8bb0-587599430de3"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Initial State" mc="InitialPseudoState" uid="bb9a6d74-81b5-4452-b4f6-7a0db7f70902"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Initial State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Transition" uid="c5e8ff78-012c-4a68-9361-447f937f64ea"/>
+                      <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Aberta" mc="State" uid="bd3811ae-e8ef-4438-8be6-d3169ae89137"/>
+                            <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State" mc="FinalState" uid="c2e0a52a-da56-4277-8d84-38160e63ddc2"/>
+                <PID name="DME - Contagem" mc="StateMachine" uid="2bfe8f57-4845-40bb-be1d-aee697657923"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="State Machine State Machine diagram" mc="StateMachineDiagram" uid="9449e063-5a95-4d7a-8198-7eb1b3c79aab"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

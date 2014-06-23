@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DUC - Diagrama de UCs" version="3">
+  <DEPS>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="7ea54179-f5de-4ea2-ae13-6e35657e35dc"/>
+    <COMPID name="DUC - Grupos e Comitês" mc="UseCaseDiagram" uid="d817f250-5752-44dc-b062-dde4a8bbdb71"/>
+    <COMPID name="Manter Atas" mc="UseCase" uid="eec36102-83d2-4a44-8c98-ef2ffd32db10"/>
+    <COMPID name="Manter Grupos e Comitês" mc="UseCase" uid="6d98f6e8-2b47-4840-9b71-aa42db08e271"/>
+    <COMPID name="Manter Membros de Grupos e Comitës" mc="UseCase" uid="fd0611c5-6b84-4983-9648-08fa14ee0276"/>
+    <COMPID name="Manter Resoluções" mc="UseCase" uid="896c8908-3205-4d03-85cc-94088b487f59"/>
+    <COMPID name="Manter Reuniões" mc="UseCase" uid="7dbc52f5-9bc9-4d67-bbc9-e0a5153623ed"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="DUC - Diagrama de UCs" mc="Package" uid="7ea54179-f5de-4ea2-ae13-6e35657e35dc"/>
+    <PID name="B03 - Grupos e Comitês" mc="Package" uid="04eeef6c-dda0-4025-b4eb-c2797c86b2b4"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DUC - Diagrama de UCs]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Manter Grupos e Comitês" mc="UseCase" uid="6d98f6e8-2b47-4840-9b71-aa42db08e271"/>
+        <COMPID name="Manter Membros de Grupos e Comitës" mc="UseCase" uid="fd0611c5-6b84-4983-9648-08fa14ee0276"/>
+        <COMPID name="Manter Reuniões" mc="UseCase" uid="7dbc52f5-9bc9-4d67-bbc9-e0a5153623ed"/>
+        <COMPID name="Manter Atas" mc="UseCase" uid="eec36102-83d2-4a44-8c98-ef2ffd32db10"/>
+        <COMPID name="Manter Resoluções" mc="UseCase" uid="896c8908-3205-4d03-85cc-94088b487f59"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DUC - Grupos e Comitês" mc="UseCaseDiagram" uid="d817f250-5752-44dc-b062-dde4a8bbdb71"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="A02 - Domínios" version="3">
+  <DEPS>
+    <ID name="A02 - Domínios" mc="Package" uid="392e0445-3b62-4753-b712-0a432aa9fd02"/>
+    <COMPID name="DCL - Diagrama de Classes" mc="Package" uid="fb6a95e3-f070-4c33-a8b3-3e19b48840f5"/>
+    <COMPID name="DUC - Diagrama de UCs" mc="Package" uid="78c71e5a-9361-4ea4-9998-3a068acd6db4"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="A02 - Domínios" mc="Package" uid="392e0445-3b62-4753-b712-0a432aa9fd02"/>
+    <PID name="Modelagem" mc="Package" uid="eb47faef-737f-492a-a210-c737d9f9d443"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[A02 - Domínios]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="DUC - Diagrama de UCs" mc="Package" uid="78c71e5a-9361-4ea4-9998-3a068acd6db4"/>
+        <COMPID name="DCL - Diagrama de Classes" mc="Package" uid="fb6a95e3-f070-4c33-a8b3-3e19b48840f5"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

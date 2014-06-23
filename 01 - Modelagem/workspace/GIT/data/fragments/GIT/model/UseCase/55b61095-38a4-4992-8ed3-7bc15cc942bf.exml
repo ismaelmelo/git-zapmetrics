@@ -1,0 +1,165 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="UC111 - Entrar no Sistema" version="3">
+  <DEPS>
+    <ID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+    <EXTID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+    <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+    <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+    <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+    <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+    <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+    <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+    <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+  </DEPS>
+  <OBJECT>
+    <ID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+    <PID name="DUC - Diagrama de UCs" mc="Package" uid="715b7690-2dad-40b6-b748-964644fbaa1d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[UC111 - Entrar no Sistema]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="UseCaseDependency" uid="1a72bc2e-b703-491e-a8ec-9e3a093cfa17"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="UC059 - Visualizar Painel de Controle" mc="UseCase" uid="2749bef5-36a9-4cce-b146-77985e6fa3d1"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="include" mc="Stereotype" uid="00000000-0000-9c49-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Note" uid="8bc75db4-dc5b-4f42-8bb0-2b45b1cb78ab"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Fluxo Principal - Entrar no Sistema
+
+FP.1 - O usuário solicita Entrar no Sistema.
+FP.2 - O sistema solicita o preenchimento das informações para logon do usuário (INF-01).
+FP.3 - O usuário preenche as informações (INF-01).
+FP.4 - O sistema valida as informações.
+FP.5 - O sistema apresenta o menu do sistema.
+FP.6 - O sistema inclui o P1 [UC059 - Visualizar Painel de Controle].
+FP.7 - O sistema encerra o caso de uso (FA1, FA2).
+
+Fluxos Alternativos
+
+FA1 - Trocar Senha
+
+FA1.1 - No passo FP.7, o usuário solicita Trocar Senha.
+FA1.2 - O sistema extende o caso de uso P2 [UC110 - Trocar Senha].
+FA1.3 - O sistema encerra o caso de uso.
+
+FA2 - Sair do Sistema
+
+FA2.1 - No passo FP.7, o usuário solicita Sair do Sistema.
+FA2.2 - O sistema extende o caso de uso P3 [UC112 - Sair do Sistema].
+FA2.3 - O sistema encerra o caso de uso.
+
+Informações Complementares
+
+INF-01 - Informações de Usuário Necessárias à Troca de Senha
+
+Casos de Uso Relacionados
+
+P1 - UC059 - Visualizar Painel de Controle
+P2 - UC110 - Trocar Senha
+P3 - UC112 - Sair do Sistema]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="157f610a-79a0-49a8-84b0-0a8aa324f7b2"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="320e715a-f3d1-43e7-a131-12178183faaf"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="a9b459b5-3676-432f-8cc3-80ec5f522d1a"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="c2336f2b-461d-45e2-a9c8-c1903cf6473c"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Note" uid="cd0742b0-6edb-4148-b01e-90b05e5e2253"/>
+          <PID name="UC111 - Entrar no Sistema" mc="UseCase" uid="55b61095-38a4-4992-8ed3-7bc15cc942bf"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
