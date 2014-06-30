@@ -11,7 +11,7 @@ Arquivos Modelio (baixe para editar e contribuir):
 - 02 Protótipo
 
 Documentação gerada:
-- Clique <a href="http://54.207.80.90/git-doc/GIT - Documentação.html">aqui</a> para acessar o site dos artefatos.
+- Clique <a href="http://54.207.80.90/git-doc/GIT - Documentação.html" target="_blank">aqui</a> para acessar o site dos artefatos.
 
 Demonstração
-- Clique <a href="http://54.207.80.90/git-0100/">aqui</a> para acessar o sistema em modo de demonstração.
+- Clique <a href="http://54.207.80.90/git-0100/" target="_blank">aqui</a> para acessar o sistema em modo de demonstração.
